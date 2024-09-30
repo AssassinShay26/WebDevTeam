@@ -5,3 +5,7 @@ footer {
   background-color: DarkSalmon;
   color: white;
 }
+
+body {
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+}
