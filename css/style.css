@@ -61,6 +61,25 @@ body{
 #Navbar_logo{
   padding-bottom:2vh ;
 }
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
 
 /*#endregion Navbar*/
 /***************************************/
