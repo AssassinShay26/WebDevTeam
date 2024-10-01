@@ -1,13 +1,11 @@
 :root{
 
-  /*Color scheme for the truck and website*/   
+  /*Color scheme for Website*/   
   --clr-NormalRed: #BE1E2D;
-  --clr-NormalGreen: #36743A;
-  --clr-NormalYellow: #fef28b;
   --clr-NormalWhite: #ffffff;
   --clr-NormalBlack: #000000;
   --clr-DarkRed: #a00000;
-  --clr-DarkGreen: #00a000;
+  --clr-DarkGrey: #4d4d4d;
 
   --Font-Light: font-weight: 200;
   --Font-Normal: font-weight: 400;
@@ -30,36 +28,28 @@ body{
 }
 .Navbar{
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 22vh;
   background-color: var(--clr-NormalBlack);
 }
-.Navbar_links{
-  margin: 7vh 0vw 3vh 10vw;
-}
 .Navbar_link{
-  color: var(--clr-NormalWhite);
+  margin: 2vw;
+}
+.Navbar_links{
   text-decoration: none;
-  margin: 4vw;
-  font-size: 5vh;
+
+  font-size: 2.70vh;
   align-items: center;
   transition: all 0.3s ease;
-  color: var(--clr-NormalWhite);
+}
+.Navbar_link{
+  color:#ffffff;
+  text-decoration: none;
 }
 .Navbar_link:hover{
   color: var(--clr-DarkRed);
   transition: all 0.3s ease-in-out;
-}
-.Navbar img{
-  width: 175px;
-  height: 175px;
-  position:absolute ;
-  top: 0;
-  left: 0;
-}
-#Navbar_logo{
-  padding-bottom:2vh ;
 }
 
 /*#endregion Navbar*/
