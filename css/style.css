@@ -67,7 +67,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.latest_Album_Text p{
+.latest_Album_Text {
  font-size: 30vw;
 }
 .latest_Album_img {
