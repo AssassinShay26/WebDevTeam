@@ -61,7 +61,8 @@ body{
 /***************************************/
 /*#region Main*/
 #latest_Album{
-
+  background-color: #000000;
+  color: #a00000 ;
 }
 .latest_Album_Container{
   display: grid;
@@ -80,6 +81,35 @@ body{
   height: 400px;
   align-items: end;
 }
+.merch_Shop_Container{
+  
+}
+.merch_Shop_Header{
+  
+}
+.merch_Shop_Items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.merch_Shop_Item{
+  background-color: var(--clr-NormalRed);/*Color not final, change to what looks best*/
+    width: 550px;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-top: 1.5rem ;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   grid-template-rows: 1fr 1fr ;
+}
+.merch_Shop_img img{
+ width: 400px;
+ height: 40p0x;
+}
+.merch_Shop_text{
+
+}
 /*#endregion Main*/
 /***************************************/
 /*#region footer*/
@@ -91,7 +121,7 @@ footer {
   display: block;
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: var(--clr-DarkGrey);
   color: white;
 }
 .footer_Container{
