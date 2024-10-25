@@ -85,7 +85,8 @@ body{
   
 }
 .merch_Shop_Header{
-  
+  font-size: 3vh;
+  padding-left: 30vw;
 }
 .merch_Shop_Items{
   display: grid;
