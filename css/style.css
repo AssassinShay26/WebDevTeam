@@ -91,6 +91,11 @@ body{
 .tour_Dates_Item {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  padding: 50px;
+}
+.tour_Dates_Items {
+
 }
 .tour_Dates_Country{
 
