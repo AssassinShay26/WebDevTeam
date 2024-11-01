@@ -81,8 +81,27 @@ body{
   height: 400px;
   align-items: end;
 }
-.merch_Shop_Container{
-  
+.merch_Shop_Items{
+  display: grid; 
+  grid-template-rows: 2;
+}
+#Item_1{
+  grid-row: 1;
+}
+#Item_2{
+  grid-row: 1;
+}
+#Item_3{
+  grid-row: 1;
+}
+#Item_4{
+  grid-row: 2;
+}
+#Item_5{
+  grid-row: 2;
+}
+#Item_6{
+  grid-row: 2;
 }
 .merch_Shop_Header{
   font-size: 3vh;
