@@ -92,6 +92,26 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.tour_Dates_Country{
+
+}
+.TourContainer{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 5;
+}
+.tour_Dates_H{
+
+}
+.tour_Dates_Header{
+
+}
+.TourHead{
+
+}
+.tour_dates_Text{
+
+}
 .indexbutton{
   background-color: var(--clr-NormalWhite);
   border: none;
