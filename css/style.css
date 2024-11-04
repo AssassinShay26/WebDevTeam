@@ -107,14 +107,18 @@ body{
   font-size: 3vh;
   padding-left: 30vw;
 }
+.tour_Dates_Container{
+  margin-left: 30px;
+}
+.tour_Dates_H{
+  display: grid;
+  grid-template-columns: 2;
+}
 .tour_Dates_Item {
   display: flex;
   justify-content: space-between;
   width: 90%;
   padding: 50px;
-}
-.tour_Dates_Items {
-
 }
 .indexbutton{
   background-color: var(--clr-NormalWhite);
@@ -129,11 +133,22 @@ body{
   color:black;
   text-decoration: none;
 }
+.hr1{
+  width: 200px;
+}
+.hr2{
+  margin-top: 10px;
+  background-color: black;
+  width: 500px;
+  height: 3.75px;
+}
 .button{
+  grid-column: 2;
   background-color: var(--clr-NormalBlack); /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
+  margin-left: 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -168,7 +183,9 @@ body{
 
 }
 /*#endregion Main*/
+
 /***************************************/
+
 /*#region footer*/
 .footer_Wrapper{
   width:100%;
