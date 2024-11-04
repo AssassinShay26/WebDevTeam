@@ -7,7 +7,7 @@
   --clr-DarkRed: #a00000;
   --clr-DarkGrey: #4d4d4d;
 
-  --Font-Light: font-weight: 200;
+  --Font-Large: 34px;
   --Font-Normal: font-weight: 400;
   --Font-Heavy: font-weight: 600;
 }
@@ -21,7 +21,7 @@ html{
 }
 body{
   background-color: #f5f5f5;
-  font-family:  "Open Sans", sans-serif;
+  font-family:  "Bebas Neue", sans-serif;
 }
 .Navbar_wrapper{
  display: flex;
@@ -70,6 +70,7 @@ body{
 }
 .latest_Album_Text {
  font-size: 30vw;
+ font-family: "Bebas Neue";
 }
 .latest_Album_img {
   width: 400px;
@@ -150,7 +151,7 @@ body{
 }
 .merch_Shop_Item{
   background-color: var(--clr-NormalRed);/*Color not final, change to what looks best*/
-    width: 550px;
+    width: 525px;
     border-radius: 7px;
     transition: 0.5s;
     margin-top: 1.5rem ;
@@ -162,11 +163,21 @@ body{
 }
 .merch_Shop_img img{
  width: 400px;
- height: 40p0x;
+ height: 400px;
 }
 .merch_Shop_text{
-
+  font-size: var(--Font-Large);
+  
 }
+.merch_Shop_button{
+ 
+}
+.merch_Shop_button button{
+  font-size: var(--Font-Large);
+  width: 6rem;
+  height: 4rem;
+}
+
 /*#endregion Main*/
 /***************************************/
 /*#region footer*/
