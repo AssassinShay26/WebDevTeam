@@ -43,8 +43,6 @@ body{
 }
 .Navbar_links{
   text-decoration: none;
-
-
   font-size: 2.70vh;
   align-items: center;
   transition: all 0.3s ease;
@@ -108,14 +106,19 @@ body{
   font-size: 3vh;
   padding-left: 30vw;
 }
+.tour_Dates_Container{
+  margin-left: 30px;
+}
+.tour_Dates_H{
+  display: grid;
+  grid-template-columns: 2;
+}
+
 .tour_Dates_Item {
   display: flex;
   justify-content: space-between;
   width: 90%;
   padding: 50px;
-}
-.tour_Dates_Items {
-
 }
 .indexbutton{
   background-color: var(--clr-NormalWhite);
@@ -130,11 +133,22 @@ body{
   color:black;
   text-decoration: none;
 }
+.hr1{
+  width: 200px;
+}
+.hr2{
+  margin-top: 10px;
+  background-color: black;
+  width: 500px;
+  height: 3.75px;
+}
 .button{
+  grid-column: 2;
   background-color: var(--clr-NormalBlack); /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
+  margin-left: 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -169,6 +183,40 @@ body{
   font-size: var(--Font-Large);
   
 }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--clr-NormalBlack); 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: lightgrey;
+  color: var(--clr-NormalBlack);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 .merch_Shop_button{
  
 }
@@ -179,7 +227,9 @@ body{
 }
 
 /*#endregion Main*/
+
 /***************************************/
+
 /*#region footer*/
 .footer_Wrapper{
   width:100%;
@@ -257,7 +307,10 @@ footer {
        height: 30vh;
    }
    .Navbar_links{
-       margin: 7vh 0vw 2vh 10vw;
+    text-decoration: none;
+    font-size: 2.70vh;
+    align-items: center;
+    transition: all 0.3s ease;
    }
    .Navbar_link{
        color: var(--clr-NormalWhite);
@@ -284,6 +337,40 @@ footer {
    }
 /*********************************************/
 /*#region Main*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--clr-NormalBlack); 
+  color: lightgrey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: lightgrey;
+  color: var(--clr-NormalBlack);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 /*#endregion Main*/
 /*********************************************/
 /* #region Footer */

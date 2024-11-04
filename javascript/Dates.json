@@ -1,0 +1,29 @@
+{
+    "NATourDates": [
+        {
+            "id": "Date1",
+            "Location": "Columbus",
+            "date": "1/2"
+        },
+        {
+            "id": "Date2",
+            "Location": "Indianapolis",
+            "date": "1/4"
+        },
+        {
+            "id": "Date3",
+            "Location": "Philadelphia",
+            "date": "1/6"
+        },
+        {
+            "id": "Date4",
+            "Location": "Los Angeles",
+            "date": "1/8"
+        },
+        {
+            "id": "Date5",
+            "Location": "Gainsville",
+            "date": "1/10"
+        }
+    ]
+}
