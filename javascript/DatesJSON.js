@@ -1,65 +1,55 @@
-//create XMLHttpRequest object
-let xhr = new XMLHttpRequest();
+let xhr3 = new XMLHttpRequest();
 
-let xhr2 = new XMLHttpRequest();
+let times2;
 
-let times;
+xhr3.onload = function () {
+  //check status
+  console.log(xhr3.status);
 
+  if (xhr3.status === 200) {
+    //create an object to get data from json
+    let responseObject = JSON.parse(xhr3.responseText);
 
+    console.log(responseObject);
+    
+    //create loop and stuff
+    for (let i = 0; i < responseObject.NATourDates.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.NATourDates[i].Location + "<br>";
+      newCard += responseObject.NATourDates[i].Date + "<br>";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("tour1").innerHTML += newCard;
+    };
 
-//when state of requeset changes
-xhr.onload = function(){
-    //this is to display the status of the webpage
-    console.log(xhr.status)
+    // for (let i = 0; i < responseObject.review2.length; i++) {
+    //   let newCard = "";
+    //   newCard += "<div class='review'>";
+    //   newCard += "<p><b>" + responseObject.review2[i].name + "<br>";
+    //   newCard += responseObject.review2[i].stars + "<br>";
+    //   newCard += responseObject.review2[i].head + "<br>";
+    //   newCard += responseObject.review2[i].review + "<br>";
+    //   newCard += responseObject.review2[i].attribution + "<br>";
+    //   newCard += "</p></b>";
+    //   newCard += "</div>";
+    //   document.getElementById("f_re2").innerHTML += newCard;
+    // };
 
-    //if server response == 'ok', create some HTML
-    if(xhr.status === 200){
-        //create an object to get the data from json file
-        let responseObject = JSON.parse(xhr.responseText)
+    // for (let i = 0; i < responseObject.review3.length; i++) {
+    //   let newCard = "";
+    //   newCard += "<div class='review'>";
+    //   newCard += "<p><b>" + responseObject.review3[i].name + "<br>";
+    //   newCard += responseObject.review3[i].stars + "<br>";
+    //   newCard += responseObject.review3[i].head + "<br>";
+    //   newCard += responseObject.review3[i].review + "<br>";
+    //   newCard += responseObject.review3[i].attribution + "<br>";
+    //   newCard += "</p></b>";
+    //   newCard += "</div>";
+    //   document.getElementById("f_re3").innerHTML += newCard;
+    // };    
+  }
+};
 
-        console.log(responseObject)
-        let newCard = ''; //string object to hold 'card' info and layout
-
-        //loop through responseObject to obtain all elements
-        //and data to add to the "card" on the webpage
-        for(let i=0; i<responseObject.events.length; i++){
-            newCard += "<div class='event'>"
-            newCard += "<img src='" + responseObject.events[i].map + "'"
-            newCard += "alt='" + responseObject.events[i].location + "' />"
-            newCard += "<p><b>" + responseObject.events[i].location + "<br>"
-            newCard += responseObject.events[i].date + "</b></p>"
-            
-            //add session / times for each location
-            let loc = Object.keys(times)[i]
-            console.log(loc)
-            for(let i2 = 0; i2 < times[loc].length; i2++){
-                newCard += "<p><b> Intinerary "
-                newCard += "<li>" + times[loc][i2].time + "&nbsp;"
-                newCard += times[loc][i2].title + "</b></p>"
-                newCard += "</li>"
-            }
-
-            newCard += "</div>"
-        }        
-        //add new Card content to the webpage
-        document.getElementById('content').innerHTML = newCard
-
-    }
-}
-
-xhr2.onload = function(){
-    if(xhr2.status === 200){
-        times = JSON.parse(xhr2.responseText)
-    }
-    else{
-        console.log('sorry, the timetable could not be loaded')
-    }
-}
-
-xhr2.open('GET', "./data/example.json", true)
-xhr2.send(null)
-
-//prepare the request
-xhr.open('GET', './data/data.json', true);
-//send the request
-xhr.send(null);
+xhr3.open("GET", "../javascript/Dates.json", true);
+xhr3.send(null);
