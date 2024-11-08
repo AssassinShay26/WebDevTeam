@@ -25,5 +25,12 @@
             "Location": "Gainsville",
             "date": "1/10"
         }
+    ],
+    "SATourDates": [
+        {
+        "id": "Date5",
+        "Location": "Sao Paulo",
+        "date": "1/2"
+        }
     ]
 }

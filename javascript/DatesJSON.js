@@ -16,25 +16,22 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.NATourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.NATourDates[i].Location + "<br>";
-      newCard += responseObject.NATourDates[i].Date + "<br>";
+      newCard += "<p><b>" + responseObject.NATourDates[i].Location + "&nbsp";
+      newCard += responseObject.NATourDates[i].date + "<br>  <hr class=\"jshr\">";
       newCard += "</p></b>";
       newCard += "</div>";
       document.getElementById("tour1").innerHTML += newCard;
     };
 
-    // for (let i = 0; i < responseObject.review2.length; i++) {
-    //   let newCard = "";
-    //   newCard += "<div class='review'>";
-    //   newCard += "<p><b>" + responseObject.review2[i].name + "<br>";
-    //   newCard += responseObject.review2[i].stars + "<br>";
-    //   newCard += responseObject.review2[i].head + "<br>";
-    //   newCard += responseObject.review2[i].review + "<br>";
-    //   newCard += responseObject.review2[i].attribution + "<br>";
-    //   newCard += "</p></b>";
-    //   newCard += "</div>";
-    //   document.getElementById("f_re2").innerHTML += newCard;
-    // };
+    for (let i = 0; i < responseObject.SATourDates.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.SATourDates[i].Location + "&nbsp";
+      newCard += responseObject.SATourDates[i].date + "<br>  <hr class=\"jshr\">";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("tour1").innerHTML += newCard;
+    };
 
     // for (let i = 0; i < responseObject.review3.length; i++) {
     //   let newCard = "";
@@ -51,5 +48,5 @@ xhr3.onload = function () {
   }
 };
 
-xhr3.open("GET", "../javascript/Dates.json", true);
+xhr3.open("GET", "../JSON/Dates.json", true);
 xhr3.send(null);
