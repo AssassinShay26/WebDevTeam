@@ -17,7 +17,8 @@ xhr3.onload = function () {
       let newCard = "";
       newCard += "<div class='review'>";
       newCard += "<p><b>" + responseObject.NATourDates[i].Location + "&nbsp";
-      newCard += responseObject.NATourDates[i].date + "<br>  <hr class=\"jshr\">";
+      newCard += responseObject.NATourDates[i].date + "<br>";
+      newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
       newCard += "</div>";
       document.getElementById("tour1").innerHTML += newCard;
@@ -27,10 +28,11 @@ xhr3.onload = function () {
       let newCard = "";
       newCard += "<div class='review'>";
       newCard += "<p><b>" + responseObject.SATourDates[i].Location + "&nbsp";
-      newCard += responseObject.SATourDates[i].date + "<br>  <hr class=\"jshr\">";
+      newCard += responseObject.SATourDates[i].date + "<br>";
+      newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
       newCard += "</div>";
-      document.getElementById("tour1").innerHTML += newCard;
+      document.getElementById("tour2").innerHTML += newCard;
     };
 
     // for (let i = 0; i < responseObject.review3.length; i++) {
@@ -43,7 +45,7 @@ xhr3.onload = function () {
     //   newCard += responseObject.review3[i].attribution + "<br>";
     //   newCard += "</p></b>";
     //   newCard += "</div>";
-    //   document.getElementById("f_re3").innerHTML += newCard;
+    //   document.getElementById("tour3").innerHTML += newCard;
     // };    
   }
 };
