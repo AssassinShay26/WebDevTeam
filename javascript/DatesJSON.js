@@ -35,18 +35,38 @@ xhr3.onload = function () {
       document.getElementById("tour2").innerHTML += newCard;
     };
 
-    // for (let i = 0; i < responseObject.review3.length; i++) {
-    //   let newCard = "";
-    //   newCard += "<div class='review'>";
-    //   newCard += "<p><b>" + responseObject.review3[i].name + "<br>";
-    //   newCard += responseObject.review3[i].stars + "<br>";
-    //   newCard += responseObject.review3[i].head + "<br>";
-    //   newCard += responseObject.review3[i].review + "<br>";
-    //   newCard += responseObject.review3[i].attribution + "<br>";
-    //   newCard += "</p></b>";
-    //   newCard += "</div>";
-    //   document.getElementById("tour3").innerHTML += newCard;
-    // };    
+    for (let i = 0; i < responseObject.EUTourDates.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.EUTourDates[i].Location + "&nbsp";
+      newCard += responseObject.EUTourDates[i].date + "<br>";
+      newCard += "<hr class=\"jshr\">";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("tour3").innerHTML += newCard;
+    };  
+
+    for (let i = 0; i < responseObject.RUTourDates.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.RUTourDates[i].Location + "&nbsp";
+      newCard += responseObject.RUTourDates[i].date + "<br>";
+      newCard += "<hr class=\"jshr\">";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("tour4").innerHTML += newCard;
+    };
+
+    for (let i = 0; i < responseObject.ASTourDates.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.ASTourDates[i].Location + "&nbsp";
+      newCard += responseObject.ASTourDates[i].date + "<br>";
+      newCard += "<hr class=\"jshr\">";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("tour5").innerHTML += newCard;
+    };
   }
 };
 

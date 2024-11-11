@@ -138,11 +138,16 @@ body{
 }
 .jshr{
   width: 12%;
-  margin: 5px 0px;
+  margin: 5px;
+  transform: translateX(-5px);
 }
 .jshr2{
+  transform: translateX(-5px);
   width: 24%;
-  margin: 5px 0px;
+  margin: 5px;
+}
+.jshrText{
+  margin-top: 50px;
 }
 .hr2{
   margin-top: 10px;

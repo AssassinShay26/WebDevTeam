@@ -31,6 +31,87 @@
             "id": "Date5",
             "Location": "Sao Paulo",
             "date": "1/2"
+        },
+        {
+            "id": "Date2",
+            "Location": "Mexico City",
+            "date": "2/4"
+        },
+        {
+            "id": "Date3",
+            "Location": "Tiajuana",
+            "date": "2/6"
+        },
+        {
+            "id": "Date4",
+            "Location": "Rio De Jeniro",
+            "date": "2/8"
+        },
+        {
+            "id": "Date5",
+            "Location": "Puerto Rico",
+            "date": "2/10"
+        }
+    ],
+    "EUTourDates": [
+        {
+            "id": "Date5",
+            "Location": "London",
+            "date": "3/2"
+        },
+        {
+            "id": "Date2",
+            "Location": "Paris",
+            "date": "3/4"
+        },
+        {
+            "id": "Date3",
+            "Location": "Berlin",
+            "date": "3/6"
+        },
+        {
+            "id": "Date4",
+            "Location": "Warsaw",
+            "date": "3/8"
+        },
+        {
+            "id": "Date5",
+            "Location": "Riga",
+            "date": "3/10"
+        }
+    ],
+    "RUTourDates": [
+        {
+            "id": "Date5",
+            "Location": "Moscow",
+            "date": "4/2"
+        }
+    ],
+    "ASTourDates": [
+        {
+            "id": "Date5",
+            "Location": "Bejing",
+            "date": "5/2"
+        },
+        {
+            "id": "Date2",
+            "Location": "Bankok",
+            "date": "5/4"
+        },
+        {
+            "id": "Date3",
+            "Location": "Tokyo",
+            "date": "5/6"
+        },
+        {
+            "id": "Date4",
+            "Location": "Ho Chi Min City",
+            "date": "5/8"
+        },
+        {
+            "id": "Date5",
+            "Location": "Tajganj",
+            "date": "5/10"
         }
     ]
 }
