@@ -16,7 +16,7 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.NATourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.NATourDates[i].Location + "&nbsp";
+      newCard += "<p class=\"jshr2Text\"><b>" + responseObject.NATourDates[i].Location + "&nbsp";
       newCard += responseObject.NATourDates[i].date + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
@@ -27,7 +27,7 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.SATourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.SATourDates[i].Location + "&nbsp";
+      newCard += "<p class=\"jshr2Text\"><b>" + responseObject.SATourDates[i].Location + "&nbsp";
       newCard += responseObject.SATourDates[i].date + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
@@ -38,7 +38,7 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.EUTourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.EUTourDates[i].Location + "&nbsp";
+      newCard += "<p class=\"jshr2Text\"><b>" + responseObject.EUTourDates[i].Location + "&nbsp";
       newCard += responseObject.EUTourDates[i].date + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
@@ -49,7 +49,7 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.RUTourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.RUTourDates[i].Location + "&nbsp";
+      newCard += "<p class=\"jshr2Text\"><b>" + responseObject.RUTourDates[i].Location + "&nbsp";
       newCard += responseObject.RUTourDates[i].date + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
@@ -60,7 +60,7 @@ xhr3.onload = function () {
     for (let i = 0; i < responseObject.ASTourDates.length; i++) {
       let newCard = "";
       newCard += "<div class='review'>";
-      newCard += "<p><b>" + responseObject.ASTourDates[i].Location + "&nbsp";
+      newCard += "<p class=\"jshr2Text\"><b>" + responseObject.ASTourDates[i].Location + "&nbsp";
       newCard += responseObject.ASTourDates[i].date + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p></b>";
