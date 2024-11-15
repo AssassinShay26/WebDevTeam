@@ -2,115 +2,115 @@
     "NATourDates": [
         {
             "id": "Date1",
-            "Location": "Columbus",
+            "Location": "<p class=\"city\">Columbus</p>",
             "date": "1/2"
         },
         {
             "id": "Date2",
-            "Location": "Indianapolis",
+            "Location": "<p class=\"city\">Indianapolis</p>",
             "date": "1/4"
         },
         {
             "id": "Date3",
-            "Location": "Philadelphia",
+            "Location": "<p class=\"city\">Philadelphia</p>",
             "date": "1/6"
         },
         {
             "id": "Date4",
-            "Location": "Los Angeles",
+            "Location": "<p class=\"city\">Los Angeles</p>",
             "date": "1/8"
         },
         {
             "id": "Date5",
-            "Location": "Gainsville",
+            "Location": "<p class=\"city\">Gainsville</p>",
             "date": "1/10"
         }
     ],
     "SATourDates": [
         {
             "id": "Date5",
-            "Location": "Sao Paulo",
+            "Location": "<p class=\"city\">Sao Paulo</p>",
             "date": "1/2"
         },
         {
             "id": "Date2",
-            "Location": "Mexico City",
+            "Location": "<p class=\"city\">Mexico City</p>",
             "date": "2/4"
         },
         {
             "id": "Date3",
-            "Location": "Tiajuana",
+            "Location": "<p class=\"city\">Tiajuana</p>",
             "date": "2/6"
         },
         {
             "id": "Date4",
-            "Location": "Rio De Jeniro",
+            "Location": "<p class=\"city\">Rio De Jeniro</p>",
             "date": "2/8"
         },
         {
             "id": "Date5",
-            "Location": "Puerto Rico",
+            "Location": "<p class=\"city\">Puerto Rico</p>",
             "date": "2/10"
         }
     ],
     "EUTourDates": [
         {
             "id": "Date5",
-            "Location": "London",
+            "Location": "<p class=\"city\">London</p>",
             "date": "3/2"
         },
         {
             "id": "Date2",
-            "Location": "Paris",
+            "Location": "<p class=\"city\">Paris</p>",
             "date": "3/4"
         },
         {
             "id": "Date3",
-            "Location": "Berlin",
+            "Location": "<p class=\"city\">Berlin</p>",
             "date": "3/6"
         },
         {
             "id": "Date4",
-            "Location": "Warsaw",
+            "Location": "<p class=\"city\">Warsaw</p>",
             "date": "3/8"
         },
         {
             "id": "Date5",
-            "Location": "Riga",
+            "Location": "<p class=\"city\">Riga</p>",
             "date": "3/10"
         }
     ],
     "RUTourDates": [
         {
             "id": "Date5",
-            "Location": "Moscow",
+            "Location": "<p class=\"city\">Moscow</p>",
             "date": "4/2"
         }
     ],
     "ASTourDates": [
         {
             "id": "Date5",
-            "Location": "Bejing",
+            "Location": "<p class=\"city\">Bejing</p>",
             "date": "5/2"
         },
         {
             "id": "Date2",
-            "Location": "Bankok",
+            "Location": "<p class=\"city\">Bankok</p>",
             "date": "5/4"
         },
         {
             "id": "Date3",
-            "Location": "Tokyo",
+            "Location": "<p class=\"city\">Tokyo</p>",
             "date": "5/6"
         },
         {
             "id": "Date4",
-            "Location": "Ho Chi Min City",
+            "Location": "<p class=\"city\">Ho Chi Min City</p>",
             "date": "5/8"
         },
         {
             "id": "Date5",
-            "Location": "Tajganj",
+            "Location": "<p class=\"city\">Tajganj</p>",
             "date": "5/10"
         }
     ]

@@ -1,5 +1,6 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getDatabase, ref, set } from "https://webdevteam-1c9be-default-rtdb.firebaseio.com";
+// Import the functions you need from the SDKs you need
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -16,6 +17,39 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-function SubmitForm(){
-    document.getElementById("SumbitForm").submit();
+
+// function SubmitForm(){
+//     document.getElementById("SumbitForm").submit();
+// }
+document.getElementById('registrationform')
+  .addEventListener('submit', formSubmit);
+
+//Submit form(1.2)
+function formSubmit(e) {
+  e.preventDefault();
+  // Get Values from the DOM
+  let fname = document.querySelector('#fname').value;
+  let lname = document.querySelector('#lname').value;
+  let subject = document.querySelector('#subject').value;
+}
+sendMessage(fname, lname, subject);
+//Send Message to Firebase(4)
+function sendMessage(fname, lname, subject) {
+  const database = getDatabase();
+
+  set(ref(database, 'users/' + Math.floor(Math.random() * 10000000)), {
+    fname: fname,
+    lname: lname,
+    subject: subject,
+  }).then(() => {
+    //Show Alert Message(5)
+    document.querySelector('.alert').style.display = 'block';
+    //Hide Alert Message After Seven Seconds(6)
+    setTimeout(function () {
+      document.querySelector('.alert').style.display = 'none';
+    }, 7000);
+    document.getElementById('registrationform').reset();
+  }).catch((error) => {
+    alert(error)
+  })
 }

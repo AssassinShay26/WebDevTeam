@@ -107,6 +107,7 @@ body{
   padding-left: 30vw;
 }
 .tour_Dates_Container{
+  display: grid;
   margin-left: 30px;
   /* padding-left: 20vh; */
 }
@@ -130,26 +131,47 @@ body{
   font-size: 16px;
   border-radius: 8px;
 }
+.TourImages{
+
+}
 .indexbutton a {
   color:black;
   text-decoration: none;
+}
+.TicketButton{
+  grid-column: 2;
+  max-width: 200px;
+  color: var(--clr-NormalRed);
+  margin-left: 2%;
 }
 .hr1{
   width: 200px;
 }
 .jshr{
-  width: 12%;
+  grid-column: 1;
+  width: 201.5165px;
   margin: 5px;
   transform: translateX(-5px);
+
 }
 .jshr2{
   transform: translateX(-5px);
   width: 24%;
+  height: 2.5px;
+  background-color: #000000;
   margin: 5px;
 }
-.jshr2Text{
+.city{
   color: var(--clr-NormalRed);
+  font-weight: bold;
+  grid-column: 1;
 }
+.review{
+  display: grid;
+  max-width: 403.033px;
+}
+/* .jshr2Text{
+} */
 .jshrText{
   margin-top: 50px;
   font-size: larger;
@@ -237,9 +259,8 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.merch_Shop_button{
- 
-}
+/* .merch_Shop_button{
+} */
 .merch_Shop_button button{
   font-size: var(--Font-Large);
   width: 6rem;
