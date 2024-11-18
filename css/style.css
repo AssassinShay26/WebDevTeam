@@ -102,6 +102,21 @@ body{
 #Item_6{
   grid-row: 2;
 }
+#tour1{
+  display: grid;
+}
+#tour2{
+  display: grid;
+}
+#tour3{
+  display: grid;
+}
+#tour4{
+  display: grid;
+}
+#tour5{
+  display: grid;
+}
 .merch_Shop_Header{
   font-size: 3vh;
   padding-left: 30vw;
@@ -132,7 +147,10 @@ body{
   border-radius: 8px;
 }
 .TourImages{
-
+  display: grid; 
+  grid-column: 2;
+  height: 15%;
+  width: 15%;
 }
 .indexbutton a {
   color:black;
@@ -155,6 +173,7 @@ body{
 
 }
 .jshr2{
+  grid-column: 1;
   transform: translateX(-5px);
   width: 24%;
   height: 2.5px;
@@ -168,6 +187,7 @@ body{
 }
 .review{
   display: grid;
+  grid-column: 1;
   max-width: 403.033px;
 }
 /* .jshr2Text{
