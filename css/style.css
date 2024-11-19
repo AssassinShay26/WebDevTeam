@@ -15,6 +15,8 @@
 /*#region Navbar*/
 * {
   margin: 0;
+  font-family:  "Bebas Neue", sans-serif;
+
 }
 html{
   scroll-behavior: smooth;
@@ -30,7 +32,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  height: 7vh;
+  min-height: 100px;
+  max-height: 200px;
   background-color: var(--clr-DarkGrey);
 }
 .navbar_toggle img{
@@ -45,6 +48,7 @@ body{
   text-decoration: none;
   font-size: 2.70vh;
   align-items: center;
+  margin-top: 4%;
   transition: all 0.3s ease;
 }
 .Navbar_link{
@@ -113,9 +117,26 @@ body{
 }
 #tour4{
   display: grid;
+  max-height: 20%;
 }
 #tour5{
   display: grid;
+  transform: translateY(-275px);
+}
+#img1{
+
+}
+#img2{
+  
+}
+#img3{
+  
+}
+#img4{
+  transform: translateY(-75px);
+}
+#img5{
+  transform: translateY(-175px);
 }
 .merch_Shop_Header{
   font-size: 3vh;
@@ -123,7 +144,7 @@ body{
 }
 .tour_Dates_Container{
   display: grid;
-  margin-left: 30px;
+  margin-left: 100px;
   /* padding-left: 20vh; */
 }
 .tour_Dates_H{
@@ -147,10 +168,11 @@ body{
   border-radius: 8px;
 }
 .TourImages{
-  display: grid; 
-  grid-column: 2;
-  height: 15%;
-  width: 15%;
+  grid-column: 3;
+  padding-left: 5%;
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
 }
 .indexbutton a {
   color:black;
@@ -168,6 +190,8 @@ body{
 .jshr{
   grid-column: 1;
   width: 201.5165px;
+  max-height: 0px;
+  background-color: #000000;
   margin: 5px;
   transform: translateX(-5px);
 
@@ -175,6 +199,7 @@ body{
 .jshr2{
   grid-column: 1;
   transform: translateX(-5px);
+  min-width: 150px;
   width: 24%;
   height: 2.5px;
   background-color: #000000;
@@ -184,15 +209,22 @@ body{
   color: var(--clr-NormalRed);
   font-weight: bold;
   grid-column: 1;
+  padding-left: 25%;
+  transform: translateY(10px);
 }
 .review{
   display: grid;
   grid-column: 1;
   max-width: 403.033px;
 }
-/* .jshr2Text{
-} */
+#asia{
+  transform: translateY(-275px);
+}
+#JSHRasia{
+  transform: translateY(-275px);
+}
 .jshrText{
+  grid-column: 1;
   margin-top: 50px;
   font-size: larger;
   font-weight: bold;
