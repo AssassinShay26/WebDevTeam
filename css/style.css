@@ -387,6 +387,7 @@ footer {
   text-decoration: none;
   color: var(--clr-NormalWhite);
   text-decoration: none;
+  margin: 0.5vw;
 }
 .footer_Link_Item a:hover{
   transition:all 0.3s ease-in-out;
