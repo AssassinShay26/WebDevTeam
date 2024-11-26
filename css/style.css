@@ -144,8 +144,7 @@ body{
  height: 400px;
 }
 .merch_Shop_text{
-  font-size: var(--Font-Large);
-  
+  font-size: var(--Font-Large);  
 }
 #Item_1{
   grid-row: 1;
@@ -355,6 +354,29 @@ input[type=submit]:hover {
   height: 4rem;
 }
 
+.about_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+}
+.about_member {
+  width: 525px;
+  border-radius: 7px;
+  transition: 0.5s;
+  margin-top: 1.5rem ;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+ grid-template-rows: 1fr 1fr;
+ perspective: 1000px;
+}
+.about_member_img {
+  
+}
+.about_member_txt {
+  
+}
 /*#endregion Main*/
 
 /***************************************/
