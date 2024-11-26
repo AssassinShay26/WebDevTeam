@@ -95,8 +95,57 @@ body{
   align-items: end;
 }
 .merch_Shop_Items{
-  display: grid; 
-  grid-template-rows: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+}
+.merch_Shop_Item{
+  background-color: var(--clr-NormalRed);/*Color not final, change to what looks best*/
+    width: 525px;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-top: 1.5rem ;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   grid-template-rows: 1fr 1fr;
+   perspective: 1000px;
+}
+.merch_Shop_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.merch_Shop_Item:hover .merch_Shop_inner {
+  transform: rotateY(180deg);
+}
+.merch_Shop_front, .merch_Shop_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.merch_Shop_front {
+  background-color:var(--clr-DarkRed);
+  color: black;
+}
+.merch_Shop_back {
+  background-color: var(--clr-NormalBlack);
+  color: white;
+  transform: rotateY(180deg);
+}
+.merch_Shop_img img{
+ width: 400px;
+ height: 400px;
+}
+.merch_Shop_text{
+  font-size: var(--Font-Large);
+  
 }
 #Item_1{
   grid-row: 1;
@@ -263,30 +312,6 @@ body{
 .button a {
   color:white;
   text-decoration: none;
-}
-.merch_Shop_Items{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.merch_Shop_Item{
-  background-color: var(--clr-NormalRed);/*Color not final, change to what looks best*/
-    width: 525px;
-    border-radius: 7px;
-    transition: 0.5s;
-    margin-top: 1.5rem ;
-    margin-left: 2rem;
-    align-items: center;
-    justify-content: center;
-    display: grid;
-   grid-template-rows: 1fr 1fr ;
-}
-.merch_Shop_img img{
- width: 400px;
- height: 400px;
-}
-.merch_Shop_text{
-  font-size: var(--Font-Large);
-  
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
