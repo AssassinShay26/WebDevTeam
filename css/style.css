@@ -41,6 +41,10 @@ body{
   width: 100px;
   height: 100px;
 }
+.BandLogoIndex{
+  width: 90px;
+  height: 90px;
+}
 .Navbar_link{
   margin: 2vw;
 }
