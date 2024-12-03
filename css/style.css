@@ -160,11 +160,7 @@ body{
  height: 400px;
 }
 .merch_Shop_text{
-<<<<<<< HEAD
-  font-size: var(--Font-Large);  
-=======
   font-size: var(--Font-Large);
->>>>>>> 1ec0cdfc52ec89502ea39e5cbdd533fa0b02730d
 }
 #Item_1{
   grid-row: 1;
