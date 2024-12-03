@@ -104,6 +104,7 @@ body{
   height: 400px;
   align-items: end;
 }
+/*New album End*/
 .merch_Shop_Items{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -180,6 +181,7 @@ body{
 #Item_6{
   grid-row: 2;
 }
+/*Merch Shop End*/
 #tour1{
   display: grid;
 }
@@ -330,7 +332,11 @@ body{
 }
 input[type=text], select, textarea {
   width: 100%;
+<<<<<<< HEAD
   padding: 12px;
+=======
+  padding: 12px; 
+>>>>>>> ad4b4c66cc602f8297c3f5a9f7f30ef5b5b71523
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
