@@ -1,58 +1,40 @@
 {
     "Headers": [
         {
-            "Header 1": "About Us",
-            "Header 2": "Contact Us",
-            "Header 3": "Tour Dates"
+            "Header1": "About Us",
+            "Header2": "Contact Us",
+            "Header3": "Tour Dates"
         }
     ],
-    "Header 1": [
+    "Header1": [
         {
-            "Section 1": "Johnny",
-            "Section 2": "Ronnie",
-            "Section 3": "Beatrice",
-            "Section 4": "How We Started"
+            "Section1": "Johnny",
+            "Section2": "Ronnie",
+            "Section3": "Beatrice",
+            "Section4": "How We Started"
         }
     ],
-    "Header 2": [
+    "Header2": [
         {
-            "Section 1": "Contact",
-            "Section 2": "Support",
-            "Section 3": "Locations"
+            "Section1": "Contact",
+            "Section2": "Support",
+            "Section3": "Locations"
         }
     ],
-    "Header 3": [
+    "Header3":[
         {
-            "": "",
-            "": "",
-            "": ""
+            "Section1": "See Tour Dates Now",
+            "Section2": "Get Tickets Now"
         }
     ],
-    "ASTourDates": [
+    "Header4": [
         {
-            "id": "Date5",
-            "Location": "<p class=\"city\">Bejing</p>",
-            "date": "5/2"
-        },
-        {
-            "id": "Date2",
-            "Location": "<p class=\"city\">Bankok</p>",
-            "date": "5/4"
-        },
-        {
-            "id": "Date3",
-            "Location": "<p class=\"city\">Tokyo</p>",
-            "date": "5/6"
-        },
-        {
-            "id": "Date4",
-            "Location": "<p class=\"city\">Ho Chi Min City</p>",
-            "date": "5/8"
-        },
-        {
-            "id": "Date5",
-            "Location": "<p class=\"city\">Tajganj</p>",
-            "date": "5/10"
+            "Section1 link": "<a href=\"https://www.facebook.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-facebook\"></i></a>",
+            "Section2 link": "<a href=\"https://www.instagra,.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-instagram\"></i></a>",
+            "Section3 link": "<a href=\"https://www.twitter.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-twitter\"></i></a>",
+            "Section4 link": "<a href=\"https://www.youtube.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-youtube\"></i></a>",
+            "Section5 link": "<a href=\"https://www.tiktok.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-tiktok\"></i></a>",
+            "Section6 link": "<a href=\"https://www.spotify.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-spotify\"></i></a>"
         }
     ]
 }
