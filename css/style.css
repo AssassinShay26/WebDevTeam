@@ -468,43 +468,141 @@ footer {
 
 @media screen and (max-width: 650px) {
   .Navbar_wrapper{
-      display: flex;
+    display: flex;
    }
    .Navbar{
-       display: grid;
-       grid-template-columns: 1fr 1fr ;
-       width: 100%;
-       height: 30vh;
+    display: flex;
+     width: 100%;
+     min-height: 100px;
+     max-height: 100%;
+     background-color: var(--clr-DarkGrey);
    }
-   .Navbar_links{
-    text-decoration: none;
-    font-size: 2.70vh;
-    align-items: center;
-    transition: all 0.3s ease;
+   .navbar_toggle{
+     width: 100px;
+     height: 100px;
+   }
+   .BandLogoIndex{
+     width: 90px;
+     height: 90px;
    }
    .Navbar_link{
-       color: var(--clr-NormalWhite);
-       text-decoration: none;
-       margin: 4vw;
-       font-size: 5vh;
-       align-items: center;
-       transition: all 0.3s ease;
-       color: var(--clr-NormalWhite);
+     margin: 2vw;
+   }
+   #link1{
+    grid-row: 1;
+   }
+   #link2{
+    grid-row: auto;
+   }
+   #link3{
+    grid-row: auto;
+   }
+   #link4{
+    grid-row: auto;
+   }
+   #link5{
+    grid-row: 5;
+   }
+   .Navbar_links{
+    display: grid;
+     grid-template-rows: 1fr 1fr;
+     text-decoration: none;
+     font-size: 3.50vh;
+     align-items: center;
+     margin-top: 12%;
+     transition: all 0.3s ease;
+     
+   }
+   .Navbar_link{
+     color:#ffffff;
+     text-decoration: none;
+     margin-left: 3vw;
+     padding-right: 3vw;
    }
    .Navbar_link:hover{
-       color: var(--clr-DarkRed);
-       transition: all 0.3s ease-in-out;
+     color: var(--clr-DarkRed);
+     transition: all 0.3s ease-in-out;
    }
-   .Navbar img{
-       width: 225px;
-       height: 225px;
-       position:absolute ;
-       top: 0;
-       right: 0;
+   body{
+    width: 200%;
    }
-   #Navbar_logo{
-       padding-bottom:2vh ;
-   }
+
+   .merch_Shop_Items{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-row: 1fr 1fr;
+  }
+  .merch_Shop_Item{
+      width: 525px;
+      border-radius: 7px;
+      transition: 0.5s;
+      margin-top: 1.5rem ;
+      margin-left: 2rem;
+      min-height: 600px;
+      /* align-items: center;
+      justify-content: center; */
+      display: grid;
+     grid-template-rows: 1fr 1fr;
+     perspective: 1000px;
+  }
+  .merch_Shop_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .merch_Shop_Item:hover .merch_Shop_inner {
+    transform: rotateX(180deg) translateY(-300px);
+  }
+  .merch_Shop_front, .merch_Shop_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .merch_Shop_front {
+    background-color:var(--clr-DarkRed);
+    width: 100%;
+    height: 600px;
+    color: black;
+  }
+  .merch_Shop_back {
+    background-color: var(--clr-NormalBlack);
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 600px;
+    transform: rotateX(180deg);
+  }
+  
+  .merch_Shop_img img{
+   width: 400px;
+   height: 400px;
+  }
+  .merch_Shop_text{
+    font-size: var(--Font-Large);
+  }
+  #Item_1{
+    grid-row: 1;
+  }
+  #Item_2{
+    grid-row: 1;
+  }
+  #Item_3{
+    grid-row: 1;
+  }
+  #Item_4{
+    grid-row: 1;
+  }
+  #Item_5{
+    grid-row: 1;
+  }
+  #Item_6{
+    grid-row: 1;
+  }
 /*********************************************/
 /*#region Main*/
 
