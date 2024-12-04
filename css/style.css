@@ -104,6 +104,7 @@ body{
   height: 400px;
   align-items: end;
 }
+/*New album End*/
 .merch_Shop_Items{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -160,11 +161,7 @@ body{
  height: 400px;
 }
 .merch_Shop_text{
-<<<<<<< HEAD
-  font-size: var(--Font-Large);  
-=======
   font-size: var(--Font-Large);
->>>>>>> 1ec0cdfc52ec89502ea39e5cbdd533fa0b02730d
 }
 #Item_1{
   grid-row: 1;
@@ -184,6 +181,7 @@ body{
 #Item_6{
   grid-row: 2;
 }
+/*Merch Shop End*/
 #tour1{
   display: grid;
 }
@@ -332,19 +330,18 @@ body{
   color:white;
   text-decoration: none;
 }
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: var(--clr-NormalBlack); 
   color: white;
@@ -354,20 +351,19 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: lightgrey;
   color: var(--clr-NormalBlack);
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
-/* .merch_Shop_button{
-} */
+
 .merch_Shop_button button{
   font-size: var(--Font-Large);
   width: 6rem;
@@ -379,7 +375,7 @@ input[type=submit]:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: 1fr 1fr;
 }
-.about_member {
+.about_member{
   width: 525px;
   border-radius: 7px;
   transition: 0.5s;
@@ -391,17 +387,14 @@ input[type=submit]:hover {
  grid-template-rows: 1fr 1fr;
  perspective: 1000px;
 }
-.about_member_img {
-  
+.about_member_img img{
+  height: 75%;
+  width: 75%;
 }
 .about_member_txt {
   
 }
-/*#endregion Main*/
-
-/***************************************/
-
-/*#region footer*/
+/*About end*/
 .footer1{
   padding-top: 2%;
 }
@@ -421,7 +414,7 @@ footer {
   padding-top: 2%;
   background-color: var(--clr-NormalBlack);
 }
-/* Font Awsome logos */
+
 .footer_social_media_logos{
   margin-left: 70vw;
 }
@@ -439,11 +432,11 @@ footer {
   transform: scale(1.75);
   color: var(--clr-DarkRed);
 }
-/* JS footer */
+
 #footer{
   color: var(--clr-NormalWhite);
 }
-/* Link section */
+
 .social_Media_Link{
   text-decoration: none;
   color: var(--clr-NormalWhite);
@@ -514,19 +507,19 @@ footer {
    }
 /*********************************************/
 /*#region Main*/
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: var(--clr-NormalBlack); 
   color: lightgrey;
@@ -536,13 +529,13 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: lightgrey;
   color: var(--clr-NormalBlack);
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
