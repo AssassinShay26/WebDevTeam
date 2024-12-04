@@ -375,7 +375,7 @@ input[type=submit]:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: 1fr 1fr;
 }
-.about_member {
+.about_member{
   width: 525px;
   border-radius: 7px;
   transition: 0.5s;
@@ -387,13 +387,14 @@ input[type=submit]:hover {
  grid-template-rows: 1fr 1fr;
  perspective: 1000px;
 }
-.about_member_img {
-  
+.about_member_img img{
+  height: 75%;
+  width: 75%;
 }
 .about_member_txt {
   
 }
-
+/*About end*/
 .footer1{
   padding-top: 2%;
 }
