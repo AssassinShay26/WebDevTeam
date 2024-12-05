@@ -15,15 +15,38 @@ xhr.onload = function () {
     //create loop and stuff
     for (let i = 0; i < responseObject.Headers.length; i++) {
       let newCard = "";
-      newCard += "<div id=\"footer_container\">";
-      newCard += responseObject.Headers[0].Headers
-      newCard += responseObject.Header1[i].Header1
-      newCard += responseObject.Headers[1].Headers
-      newCard += responseObject.Header2[i].Header2
-      newCard += responseObject.Headers[2].Headers
-      newcard += responseObject.Header3[i].Header3
-      newCard += responseObject.Header4[i].Header4
+      
+
+
+      newCard += "<div class=\"footer_Container\">";
+      
+      newCard += "<div class=\"FootHeaders\">";
+      newCard += responseObject.Headers[i].Header1 + " ";
       newCard += "</div>";
+      
+      newCard += responseObject.Header1[i].Section1 + " ";
+      newCard += responseObject.Header1[i].Section2 + " ";
+      newCard += responseObject.Header1[i].Section3 + " ";
+      newCard += responseObject.Header1[i].Section4 + " ";
+      
+      newCard += "<div class=\"FootHeaders\">";
+      newCard += responseObject.Headers[i].Header2 + " ";
+      newCard += "</div>";
+      
+      newCard += responseObject.Header2[i].Section1 + " ";
+      newCard += responseObject.Header2[i].Section2 + " ";
+      newCard += responseObject.Header2[i].Section3 + " ";
+
+      newCard += "<div class=\"FootHeaders\">";
+      newCard += responseObject.Headers[i].Header3 + " ";
+      newCard += "</div>";
+
+      newCard += responseObject.Header3[i].Section1 + " ";
+      newCard += responseObject.Header3[i].Section2 + " ";
+      
+      newCard += "</div>";
+
+      newCard += responseObject;
       document.getElementById("banana").innerHTML += newCard;
     };
   }

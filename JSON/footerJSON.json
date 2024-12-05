@@ -8,33 +8,33 @@
     ],
     "Header1": [
         {
-            "Section1": "Johnny",
-            "Section2": "Ronnie",
-            "Section3": "Beatrice",
-            "Section4": "How We Started"
+            "Section1": "<a href=\"#\">Johnny</a>",
+            "Section2": "<a href=\"#\">Ronnie</a>",
+            "Section3": "<a href=\"#\">Beatrice</a>",
+            "Section4": "<a href=\"#\">How We Started</a>"
         }
     ],
     "Header2": [
         {
-            "Section1": "Contact",
-            "Section2": "Support",
-            "Section3": "Locations"
-        }
+            "Section1": "<a href=\"./contactus.html\">Contact</a>",
+            "Section2": "<a href=\"#\">Support</a>",
+            "Section3": "<a href=\"#\">Locations</a>"
+        }  
     ],
     "Header3":[
         {
-            "Section1": "See Tour Dates Now",
-            "Section2": "Get Tickets Now"
+            "Section1": "<a href=\"./tourdates.html\">See Tour Dates Now</a>",
+            "Section2": "<a href=\"#\">Get Tickets Now</a>"
         }
     ],
     "Header4": [
         {
-            "Section1 link": "<a href=\"https://www.facebook.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-facebook\"></i></a>",
-            "Section2 link": "<a href=\"https://www.instagra,.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-instagram\"></i></a>",
-            "Section3 link": "<a href=\"https://www.twitter.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-twitter\"></i></a>",
-            "Section4 link": "<a href=\"https://www.youtube.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-youtube\"></i></a>",
-            "Section5 link": "<a href=\"https://www.tiktok.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-tiktok\"></i></a>",
-            "Section6 link": "<a href=\"https://www.spotify.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-spotify\"></i></a>"
+            "Section1Link": "<a href=\"https://www.facebook.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-facebook\"></i></a>",
+            "Section2Link": "<a href=\"https://www.instagra,.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-instagram\"></i></a>",
+            "Section3Link": "<a href=\"https://www.twitter.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-twitter\"></i></a>",
+            "Section4Link": "<a href=\"https://www.youtube.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-youtube\"></i></a>",
+            "Section5Link": "<a href=\"https://www.tiktok.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-tiktok\"></i></a>",
+            "Section6Link": "<a href=\"https://www.spotify.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-spotify\"></i></a>"
         }
     ]
 }
