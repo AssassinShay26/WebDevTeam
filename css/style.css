@@ -506,13 +506,13 @@ footer {
     grid-row: 1;
    }
    #link2{
-    grid-row: auto;
+    grid-row: 2;
    }
    #link3{
-    grid-row: auto;
+    grid-row: 3;
    }
    #link4{
-    grid-row: auto;
+    grid-row: 4;
    }
    #link5{
     grid-row: 5;
@@ -538,8 +538,32 @@ footer {
      transition: all 0.3s ease-in-out;
    }
    body{
-    width: 200%;
+    width: 100%;
    }
+
+   #latest_Album{
+    background-color: #000000;
+    color: #a00000 ;
+  }
+  .latest_Album_Container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .latest_Album_Text {
+   font-size: 30vw;
+   font-family: "Bebas Neue";
+  }
+  .latest_album_h1{
+    padding-top: 13%;
+  }
+  .latest_Album_img {
+    width: 25%;
+    height: 25%;
+  }
+  .latest_Album_img img {
+    width: 100%;
+    height: 100%;
+  }
 
    .merch_Shop_Items{
     display: grid;
@@ -547,7 +571,7 @@ footer {
     grid-row: 1fr 1fr;
   }
   .merch_Shop_Item{
-      width: 525px;
+      width: 300px;
       border-radius: 7px;
       transition: 0.5s;
       margin-top: 1.5rem ;
@@ -556,7 +580,7 @@ footer {
       /* align-items: center;
       justify-content: center; */
       display: grid;
-     grid-template-rows: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
      perspective: 1000px;
   }
   .merch_Shop_inner {
@@ -593,8 +617,8 @@ footer {
   }
   
   .merch_Shop_img img{
-   width: 400px;
-   height: 400px;
+   width: 200px;
+   height: 200px;
   }
   .merch_Shop_text{
     font-size: var(--Font-Large);
@@ -603,19 +627,19 @@ footer {
     grid-row: 1;
   }
   #Item_2{
-    grid-row: 1;
+    grid-row: 2;
   }
   #Item_3{
-    grid-row: 1;
+    grid-row: 3;
   }
   #Item_4{
-    grid-row: 1;
+    grid-row: 4;
   }
   #Item_5{
-    grid-row: 1;
+    grid-row: 5;
   }
   #Item_6{
-    grid-row: 1;
+    grid-row: 6;
   }
 /*********************************************/
 /*#region Main*/
@@ -701,17 +725,21 @@ input[type=submit]:hover {
       display: grid;
       grid-template-columns: 1fr;
       margin: 4vh 0 0 4vw;
+      font-size: 555px; /*May increase size?*/
   }
   .footer_links_item{
       list-style: none;
       margin: 2.5vw;
       color: var(--clr-NormalWhite);
-      font-size: 5vw;
   }
+  .footer_links_item h2{
+    font-size: 555px;
+}
   .footer_links_item a{
       text-decoration: none;
       color: var(--clr-NormalWhite);
       text-decoration: none;
+      
   }
   .footer_links_item a:hover{
       transition:all 0.3s ease-in-out;
