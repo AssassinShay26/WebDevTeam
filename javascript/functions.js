@@ -20,7 +20,7 @@ xhr.onload = function () {
 
       newCard += "<div class=\"footer_Container\">";
       
-      newCard += "<div class=\"FootHeaders\">";
+      newCard += "<div class=\"footer_Link_Item\">";
       newCard += responseObject.Headers[i].Header1 + " ";
       newCard += "</div>";
       
@@ -29,7 +29,7 @@ xhr.onload = function () {
       newCard += responseObject.Header1[i].Section3 + " ";
       newCard += responseObject.Header1[i].Section4 + " ";
       
-      newCard += "<div class=\"FootHeaders\">";
+      newCard += "<div class=\"footer_Link_Item\">";
       newCard += responseObject.Headers[i].Header2 + " ";
       newCard += "</div>";
       
@@ -37,7 +37,7 @@ xhr.onload = function () {
       newCard += responseObject.Header2[i].Section2 + " ";
       newCard += responseObject.Header2[i].Section3 + " ";
 
-      newCard += "<div class=\"FootHeaders\">";
+      newCard += "<div class=\"footer_Link_Item\">";
       newCard += responseObject.Headers[i].Header3 + " ";
       newCard += "</div>";
 
