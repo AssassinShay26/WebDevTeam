@@ -1,4 +1,4 @@
-let xhr = new XMLHttpRequest();
+xhr = new XMLHttpRequest();
 
 let times;
 
@@ -19,34 +19,44 @@ xhr.onload = function () {
 
 
       newCard += "<div class=\"footer_Container\">";
-      
+      newCard += "<div class=\"footer_link_wrapper\">";
       newCard += "<div class=\"footer_Link_Item\">";
-      newCard += responseObject.Headers[i].Header1 + " ";
-      newCard += "</div>";
-      
+      newCard += "<h2>" + responseObject.Headers[i].Header1 + "</h2>" + " ";
+      // newCard += "<div>"
       newCard += responseObject.Header1[i].Section1 + " ";
       newCard += responseObject.Header1[i].Section2 + " ";
       newCard += responseObject.Header1[i].Section3 + " ";
       newCard += responseObject.Header1[i].Section4 + " ";
+      newCard += "</div>";
       
       newCard += "<div class=\"footer_Link_Item\">";
-      newCard += responseObject.Headers[i].Header2 + " ";
-      newCard += "</div>";
+      newCard += "<h2>" + responseObject.Headers[i].Header2 + "</h2>" + " ";
       
       newCard += responseObject.Header2[i].Section1 + " ";
       newCard += responseObject.Header2[i].Section2 + " ";
       newCard += responseObject.Header2[i].Section3 + " ";
-
-      newCard += "<div class=\"footer_Link_Item\">";
-      newCard += responseObject.Headers[i].Header3 + " ";
       newCard += "</div>";
-
+      
+      newCard += "<div class=\"footer_Link_Item\">";
+      newCard += "<h2>" + responseObject.Headers[i].Header3 + "</h2>" + " ";
+      
       newCard += responseObject.Header3[i].Section1 + " ";
       newCard += responseObject.Header3[i].Section2 + " ";
+      newCard += "</div>";
       
+      newCard += "<div class=\"social_media\">";
+      newCard += "<div class=\"social_media_wrapper\">";
+      newCard += "<div id=\"footer_logo\">";
+      newCard += "<p id=\"website_rights\">" + "©   STAGE FRIGHT 2024. All rights reserved." + "</p>"; 
+      newCard += "<div id=\"social_media_icons\">";
+      newCard += responseObject.Header3[i].Section1 + " ";
+      newCard += responseObject.Header3[i].Section2 + " ";
+      newCard += "</div>";
+      newCard += "</div>";
+      newCard += "</div>";
+      newCard += "</div>";
       newCard += "</div>";
 
-      newCard += responseObject;
       document.getElementById("banana").innerHTML += newCard;
     };
   }
