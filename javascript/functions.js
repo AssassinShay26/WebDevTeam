@@ -1,14 +1,14 @@
-xhr = new XMLHttpRequest();
+let xhr2 = new XMLHttpRequest();
 
 let times;
 
-xhr.onload = function () {
+xhr2.onload = function () {
   //check status
-  console.log(xhr.status);
+  console.log(xhr2.status);
 
-  if (xhr.status === 200) {
+  if (xhr2.status === 200) {
     //create an object to get data from json
-    let responseObject = JSON.parse(xhr.responseText);
+    let responseObject = JSON.parse(xhr2.responseText);
 
     console.log(responseObject);
     
@@ -47,10 +47,15 @@ xhr.onload = function () {
       newCard += "<div class=\"social_media\">";
       newCard += "<div class=\"social_media_wrapper\">";
       newCard += "<div id=\"footer_logo\">";
-      newCard += "<p id=\"website_rights\">" + "©   STAGE FRIGHT 2024. All rights reserved." + "</p>"; 
+      newCard += "<p class=\"website_rights\" style=\"color:var(--clr-DarkGrey);\">" + "©   STAGE FRIGHT 2024. All rights reserved." + "</p>"; 
       newCard += "<div id=\"social_media_icons\">";
-      newCard += responseObject.Header3[i].Section1 + " ";
-      newCard += responseObject.Header3[i].Section2 + " ";
+      newCard += responseObject.Header4[i].Section1Link + " ";
+      newCard += responseObject.Header4[i].Section2Link + " ";
+      newCard += responseObject.Header4[i].Section3Link + " ";
+      newCard += responseObject.Header4[i].Section4Link + " ";
+      newCard += responseObject.Header4[i].Section5Link + " ";
+      newCard += responseObject.Header4[i].Section6Link + " ";
+      newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";
@@ -62,5 +67,5 @@ xhr.onload = function () {
   }
 };
 
-xhr.open("GET", "../JSON/footerJSON.json", true);
-xhr.send(null);
+xhr2.open("GET", "../JSON/footerJSON.json", true);
+xhr2.send(null);
