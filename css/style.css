@@ -92,7 +92,7 @@ body{
  font-size: 30vw;
  font-family: "Bebas Neue";
 }
-.latest_album_h1{
+.latest_Album_h1{
   padding-top: 13%;
 }
 .latest_Album_img {
@@ -106,6 +106,10 @@ body{
   /*align-items: end;*/
 }
 /*New album End*/
+.merch_Shop_Header{
+  font-size: 3vh;
+  padding-left: 30vw;
+}
 .merch_Shop_Items{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -206,10 +210,7 @@ body{
 #img5{
   transform: translateY(-175px);
 }
-.merch_Shop_Header{
-  font-size: 3vh;
-  padding-left: 30vw;
-}
+
 .tour_Dates_Container{
   display: grid;
   margin-left: 100px;
@@ -380,7 +381,7 @@ input[type=submit]:hover {
   max-width: 70%;
 }
 .about_member:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
   height: 850px;
   max-width: 100%;
 }
@@ -514,6 +515,39 @@ footer {
    }
 /*********************************************/
 /*#region Main*/
+#latest_Album{
+  background-color: #000000;
+  color: #a00000 ;
+}
+.latest_Album_Container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.latest_Album_Text {
+ font-size: 30vw;
+}
+.latest_Album_h1{
+  padding-top: 0%;
+  padding-left: 15%;
+}
+.latest_Album_text{
+  padding-left: 33%;
+  padding-bottom: 10%;
+}
+.latest_Album_img {
+  width: 400px;
+  height: 400px;
+  padding-left: 25px;
+}
+.latest_Album_img img {
+  width: 400px;
+  height: 400px;
+}
+.indexbutton{
+  margin-left: 33%;
+}
+/*New album End*/
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -550,6 +584,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 /*#endregion Main*/
+.merch_Shop_Header{
+  padding-left: 5vw;
+}
 .merch_Shop_Items{
   display: grid;
   grid-template-columns: 1fr;
@@ -641,16 +678,15 @@ input[type=submit]:hover {
   }
   /* Font Awsome logos */
   .footer_social_media_logos{
-      margin-left: 10svw;
+      margin-left: 12vw;
   }
   .fa-brands{      
       color: var(--clr-NormalWhite);
-      font-size: 15.5vw;
       position: relative;
-      margin:  12vh 5vw 0vh 5vw;
+      margin:  4vh 20vw .5vh 12vw;
       cursor: pointer;
       transition:all 0.3s ease-in-out;
-      font-size: 25vw;/*BRAND SIZE*/
+      font-size: 17vw;/*BRAND SIZE*/
       
   }
   .fa-brands:hover{
@@ -675,19 +711,19 @@ input[type=submit]:hover {
       grid-template-columns: 1fr;
       margin: 4vh 0 0 4vw;
   }
-  .footer_links_item{
+  .footer_Link_Item{
       list-style: none;
       margin: 2.5vw;
       color: var(--clr-NormalWhite);
       font-size: 5vw;
   }
-  .footer_links_item a{
+  .footer_Link_Item a{
       text-decoration: none;
       color: var(--clr-NormalWhite);
       text-decoration: none;
 
   }
-  .footer_links_item a:hover{
+  .footer_Link_Item a:hover{
       transition:all 0.3s ease-in-out;
       color: var(--clr-DarkRed);
   }
