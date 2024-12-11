@@ -371,7 +371,7 @@ input[type=submit]:hover {
 .about_member{
   background-color: gray;
   width: 525px;
-  height: 525px;
+  height: 505px;
   border-radius: 5px;
   transition: 0.3s;
   margin-top: 1.5rem ;
@@ -380,7 +380,7 @@ input[type=submit]:hover {
 }
 .about_member:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  height: 700px;
+  height: 850px;
   max-width: 100%;
 }
 .about_member_img img{
@@ -391,9 +391,9 @@ input[type=submit]:hover {
   width: 75%;
 }
 .about_member_txt {
-  font-size: 100%;
+  font-size: 150%;
   text-align: center;
-  padding: 30px;
+  padding: 35px;
 }
 .HWSh1{
   font-size: 79px;
