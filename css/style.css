@@ -22,9 +22,11 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  padding: 0;
   background-color: #f5f5f5;
+  min-height: 100%;
   font-family:  "Bebas Neue", sans-serif;
-  max-width: 1701px;
+  max-width: 100%;
 }
 .bar{
   padding-top: 50px;
@@ -123,6 +125,7 @@ body{
     display: grid;
    grid-template-rows: 1fr 1fr;
    perspective: 1000px;
+   box-shadow: #000000;
 }
 .merch_Shop_inner {
   position: relative;
@@ -373,16 +376,18 @@ input[type=submit]:hover {
   background-color: gray;
   width: 525px;
   height: 505px;
-  border-radius: 5px;
   transition: 0.3s;
+  border-radius: 5px;
   margin-top: 1.5rem ;
   margin-left: 2rem;
   max-width: 70%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .about_member:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  height: 850px;
+  height: 825px;
   max-width: 100%;
+  
 }
 .about_member_img img{
   display: block;
@@ -395,6 +400,13 @@ input[type=submit]:hover {
   font-size: 150%;
   text-align: center;
   padding: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.about_member:hover .about_member_txt{
+  opacity: 1;
+  visibility: visible; 
 }
 .HWSh1{
   font-size: 79px;
@@ -402,6 +414,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 .HWSp {
+  color: var(--clr-NormalBlack);
   text-align: center;
   font-size: 100%;
   padding: 20px;
@@ -425,6 +438,10 @@ footer {
   margin-top: 2%;
   padding-top: 2%;
   background-color: var(--clr-NormalBlack);
+}
+p {
+  text-align: center;
+  color: #fff;
 }
 .footer_social_media_logos{
   margin-left: 70vw;

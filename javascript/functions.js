@@ -69,3 +69,4 @@ xhr2.onload = function () {
 
 xhr2.open("GET", "../JSON/footerJSON.json", true);
 xhr2.send(null);
+
