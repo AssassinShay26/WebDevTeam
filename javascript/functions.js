@@ -23,10 +23,10 @@ xhr2.onload = function () {
       newCard += "<div class=\"footer_Link_Item\">";
       newCard += "<h2>" + responseObject.Headers[i].Header1 + "</h2>" + " ";
       // newCard += "<div>"
-      newCard += responseObject.Header1[i].Section1 + " ";
-      newCard += responseObject.Header1[i].Section2 + " ";
-      newCard += responseObject.Header1[i].Section3 + " ";
-      newCard += responseObject.Header1[i].Section4 + " ";
+      newCard += responseObject.Header1[i].Section1;
+      newCard += responseObject.Header1[i].Section2;
+      newCard += responseObject.Header1[i].Section3;
+      newCard += responseObject.Header1[i].Section4;
       newCard += "</div>";
       
       newCard += "<div class=\"footer_Link_Item\">";

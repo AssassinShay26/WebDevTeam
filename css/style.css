@@ -29,7 +29,7 @@ body{
   max-width: 100%;
 }
 .bar{
-  padding-top: 50px;
+  /* padding-top: 50px; */
   border: 0px;
   border-radius: 25%;
   background-color: #000000;
