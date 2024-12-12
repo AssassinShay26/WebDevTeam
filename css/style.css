@@ -49,7 +49,7 @@ body{
   max-height: 200px;
   background-color: var(--clr-DarkGrey);
 }
-.side_navbar img{
+.Nav_button img{
   padding-left: 45%;
   width: 50%;
   height: 50%;
