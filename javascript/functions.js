@@ -70,3 +70,13 @@ xhr2.onload = function () {
 xhr2.open("GET", "../JSON/footerJSON.json", true);
 xhr2.send(null);
 
+//JAVASCRIPT FOR NAVMENU
+// function closeNavBar(){
+//   document.getElementById("SideNav").style.width ="0px"
+// }
+// function opneNavBar(){
+//   document.getElementById("SideNav").style.width ="250px"
+// }
+function toggle(x) {
+  x.classList.toggle('change');
+}
