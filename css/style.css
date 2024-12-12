@@ -39,7 +39,7 @@ body{
   max-width: 44px;
 }
 .Navbar_wrapper{
-  display: flex;
+
 }
 .Navbar{
   display: grid;
@@ -492,6 +492,9 @@ p {
   color: var(--clr-DarkRed);
 
 }
+.social_media_icons {
+  width: 50%;
+}
 /***************************************/
 @media screen and (max-width: 650px) {
   .Navbar_wrapper{
@@ -654,6 +657,46 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.about_content {
+  display: flex;
+  color: whitesmoke;
+  padding: 2px 16px;
+}
+.about_member{
+  background-color: gray;
+  width: 525px;
+  height: 200px;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-top: 1.5rem ;
+  margin-left: 2rem;
+  max-width: 70%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.about_member:hover{
+  box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
+  height: 600px;
+  max-width: 100%;
+}
+.about_member_img img{
+  display: block;
+  border-radius: 5px 5px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.about_member_txt {
+  font-size: 50%;
+  text-align: center;
+  padding: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.about_member:hover .about_member_txt{
+  opacity: 1;
+  visibility: visible; 
+}
 .HWSh1 {
   font-size: 68px;
 }
@@ -741,6 +784,14 @@ input[type=submit]:hover {
 }
 #Item_6{
   grid-row: 6;
+}
+.HWSh1 {
+  font-size: 30px;
+}
+.HWSp {
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
 }
 /*********************************************/
 /* #region Footer */
