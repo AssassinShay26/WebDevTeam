@@ -583,17 +583,19 @@ p {
 .Navbar_links a{
   display: none;
 }
-  .Navbar a.icon {
+  .Navbar a .Nav_button {
     float: right;
     display: block;
   }
-  .Navbar.responsive {position: relative;}
-  .Navbar.responsive a.icon {
+  .Navbar.mobile_Menu{
+    position: relative;
+  }
+  .Navbar.mobile_Menu a .Nav_button {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .Navbar.responsive a {
+  .Navbar .mobile_Menu a {
     float: none;
     display: block;
     text-align: left;
