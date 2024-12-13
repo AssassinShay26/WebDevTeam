@@ -597,6 +597,29 @@ p {
     display: block;
     text-align: left;
   }
+.Navbar_links{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all .5s ease;
+    z-index: -1;
+}
+.Navbar_links.active{
+    background: #131313;
+    top: 100%;
+    opacity: 1;
+    transition: all .5s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 1.6rem;
+}
+.navbar_button{
+    padding-bottom: 2rem;
+}
 /*********************************************/
 /*#region Main*/
 #latest_Album{

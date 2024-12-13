@@ -1,5 +1,7 @@
 //JAVASCRIPT FOR NAVMENU
-conts
+const menu = document.querySelector('#mobile_menu'); 
+const menuLinks = document.querySelector('.Navbar');
+const navLogo = document.querySelector('.Nav_Button');
 // function closeNavBar(){
 //   document.getElementById("SideNav").style.width ="0px"
 // }
