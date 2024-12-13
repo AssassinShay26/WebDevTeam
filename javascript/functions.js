@@ -81,11 +81,11 @@ function toggle(x) {
   x.classList.toggle('change');
 }
 function opneNavBar() {
-  let x = document.getElementById("mobile_View");
-  if(x.className === "Navbar_Mobile"){
+  let x = document.getElementById("mobile_Menu");
+  if(x.className === "Navbar"){
     x.className += "mobile_Menu";
   }
   else{
-    x.className = ""
+    x.className = "Navbar"
   }
 }
