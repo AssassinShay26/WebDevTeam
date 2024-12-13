@@ -52,7 +52,7 @@ body{
 .Nav_button img{
   padding-left: 45%;
   width: 50%;
-  height: 50%;
+  height: 75%;
 }
 .bar1, .bar2, .bar3 {
   visibility: hidden;
@@ -529,8 +529,8 @@ p {
        transition: all 0.3s ease-in-out;
    }
    .Navbar img{
-       width: 225px;
-       height: 225px;
+       width: 25%;
+       height: 25%;
        position:absolute ;
        top: 0;
        right: 0;
