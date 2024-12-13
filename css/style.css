@@ -38,9 +38,6 @@ body{
   min-width: 6px;
   max-width: 44px;
 }
-.Navbar_wrapper{
-
-}
 .Navbar{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
