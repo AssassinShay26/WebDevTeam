@@ -80,3 +80,12 @@ xhr2.send(null);
 function toggle(x) {
   x.classList.toggle('change');
 }
+function opneNavBar() {
+  let x = document.getElementById("mobile_View");
+  if(x.className === "Navbar_Mobile"){
+    x.className += "mobile_Menu";
+  }
+  else{
+    x.className = ""
+  }
+}
