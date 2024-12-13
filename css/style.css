@@ -218,7 +218,6 @@ body{
   display: grid;
   margin-left: 100px;
   /* padding-left: 20vh; */
-  background-image: linear-gradient(to right, #2E3192 , #1BFFFF);
 }
 .tour_Dates_H{
   display: grid;
