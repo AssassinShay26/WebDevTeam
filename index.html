@@ -18,33 +18,43 @@
 <body>
     <!--Navbar region-->
     <!--Navbar for Desktop and Mobile views-->
-    <!--Kareem's area he chose-->
-    <nav>
-        <div class="Navbar_wrapper">
-            <div class="Navbar">
+    <nav class="Navbar">
+        <div class="Navbar_wrapper"><!--Container for Navbar-->
+                <a class="Nav_logo" href="#"> <img src="./resources/Stage Fright logo.png" alt="Band Logo"></a>
                 <div class="Nav_button" id="mobile_Menu" onblclick="openNavBar()" onclick="toggle(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <img src="./resources/Stage Fright logo.png" alt="Band Logo">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
+                <ul class="Navbar_links">
+                    <li class="Navbar_link_item">
+                        <a class="Navbar_link" href="./index.html" >
+                            Home
+                        </a>
+                    </li>
 
-                <div class="Navbar_links" id="link1">
-                    <a class="Navbar_link"  href="index.html">Home</a>
-                </div>
-                <div class="Navbar_links"  id="link2">
-                    <a class="Navbar_link" href="about.html">About</a>
-                </div>
-                <div class="Navbar_links" id="link3">
-                    <a class="Navbar_link"  href="tourdates.html">Tour Dates</a>
-                </div>
-                <div class="Navbar_links" id="link4">
-                    <a class="Navbar_link"  href="merch.html">Merch</a>
-                </div>
-                <div class="Navbar_links" id="link5">
-                    <a class="Navbar_link"  href="contactus.html">Contact Us</a>
-                </div>
-            </div>
+                    <li class="Navbar_link_item">
+                        <a class="Navbar_link" href="./about.html" >
+                            About
+                        </a>
+                    </li>
+
+                    <li class="Navbar_link_item">
+                        <a class="Navbar_link" href="./tourdates.html">
+                            Tour Dates
+                        </a>
+                    </li>
+                    <li class="Navbar_link_item">
+                        <a class="Navbar_link" href="./merch.html">
+                            Merch
+                        </a>
+                    </li>
+                    <li class="Navbar_link_item">
+                        <a class="Navbar_link" href="./contactus.html" >
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
         </div>
     </nav>
     <!--Navbar region end-->

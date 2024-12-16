@@ -28,8 +28,34 @@ body{
   font-family:  "Bebas Neue", sans-serif;
   max-width: 100%;
 }
+.Navbar{
+  background-color: var(--clr-DarkGrey);
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.Navbar_wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  max-width:1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+  z-index: 1;
+}
+.Nav_logo{
+  display: flex;
+  height: 120px;
+  width: 120px;
+  cursor:alias;/*Look for normal cursor*/
+}
 .bar{
-  /* padding-top: 50px; */
   border: 0px;
   border-radius: 25%;
   background-color: #000000;
@@ -38,42 +64,25 @@ body{
   min-width: 6px;
   max-width: 44px;
 }
-.Navbar{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+.Navbar_links{
+  display: flex;
   width: 100%;
   min-height: 100px;
   max-height: 200px;
   background-color: var(--clr-DarkGrey);
-}
-.Nav_button img{
-  padding-left: 45%;
-  width: 50%;
-  height: 75%;
-}
-.bar1, .bar2, .bar3 {
-  visibility: hidden;
-}
-.BandLogoIndex{
-  width: 90px;
-  height: 90px;
-}
-.Navbar_link{
-  margin: 2vw;
-}
-.Navbar_links{
-  text-decoration: none;
-  font-size: 3.50vh;
+  z-index: 9;
   align-items: center;
-  margin-top: 12%;
-  transition: all 0.3s ease;
-  
+  list-style: none;
+}
+.Navbar_link_item{
+  height: 5px;
 }
 .Navbar_link{
-  color:#ffffff;
-  text-decoration: none;
-  margin-left: 3vw;
-  padding-right: 3vw;
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 3vw;
+    padding-right: 3vw;
+    font-size: 2rem;
 }
 .Navbar_link:hover{
   color: var(--clr-DarkRed);
@@ -536,18 +545,7 @@ p {
    #Navbar_logo{
        padding-bottom:2vh ;
    }
-   .sideNav{
-    height: 100%;
-    width: 0px;
-    z-index: 1;
-    overflow-x: hidden;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: repeating-linear-gradient(white,black);
-    padding-top: 60px;
-    transition: 0.5s;
-}
+
 /*SIDE NAV*/
 /*Hamburger button effects*/
 .Nav_button:hover{
