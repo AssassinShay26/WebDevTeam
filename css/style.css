@@ -44,7 +44,6 @@ body{
   justify-content: space-between;
   height: 80px;
   width: 100%;
-  max-width:1300px;
   margin: 0 auto;
   padding: 0 50px;
   z-index: 1;
@@ -452,7 +451,6 @@ footer {
   background-color: var(--clr-NormalBlack);
 }
 p {
-  text-align: center;
   color: #fff;
 }
 .footer_social_media_logos{
