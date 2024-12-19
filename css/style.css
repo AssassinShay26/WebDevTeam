@@ -52,7 +52,7 @@ body{
   display: flex;
   height: 120px;
   width: 120px;
-  cursor:alias;/*Look for normal cursor*/
+  cursor:pointer;/*Look for normal cursor*/
 }
 .bar{
   border: 0px;
@@ -439,7 +439,7 @@ input[type=submit]:hover {
   height: 15%;
 }
 footer {
-  display: block;
+  display: inline-block;
   text-align: center;
   padding: 3px;
   background-color: var(--clr-DarkGrey);
@@ -482,11 +482,19 @@ p {
   grid-template-columns: 1fr 1fr  ;
   margin: 4vh 0 0 4vw;
 }
+.footer_link_wrapper{
+  display: flex;
+}
 .footer_Link_Item{
-  list-style: none;
   margin: 2.5vw;
   color: var(--clr-NormalWhite);
   font-size: 1.75vw;
+}
+.footer_Link_Item ul{
+  list-style: none;
+}
+.footer_Link_Item li{
+  transform: translateX(-15px);
 }
 .footer_Link_Item a{
   text-decoration: none;
