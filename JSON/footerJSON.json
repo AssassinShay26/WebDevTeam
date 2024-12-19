@@ -8,10 +8,10 @@
     ],
     "Header1": [
         {
-            "Section1": "<a href=\"#\">Johnny</a>",
-            "Section2": "<a href=\"#\">Ronnie</a>",
-            "Section3": "<a href=\"#\">Beatrice</a>",
-            "Section4": "<a href=\"#\">How We Started</a>"
+            "Section1": "<a href=\"./about.html\">Johnny</a>",
+            "Section2": "<a href=\"./about.html\">Ronnie</a>",
+            "Section3": "<a href=\"./about.html\">Beatrice</a>",
+            "Section4": "<a href=\"./about.html\">How We Started</a>"
         }
     ],
     "Header2": [
@@ -30,7 +30,7 @@
     "Header4": [
         {
             "Section1Link": "<a href=\"https://www.facebook.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-facebook\"></i></a>",
-            "Section2Link": "<a href=\"https://www.instagra,.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-instagram\"></i></a>",
+            "Section2Link": "<a href=\"https://www.instagram.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-instagram\"></i></a>",
             "Section3Link": "<a href=\"https://www.twitter.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-twitter\"></i></a>",
             "Section4Link": "<a href=\"https://www.youtube.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-square-youtube\"></i></a>",
             "Section5Link": "<a href=\"https://www.tiktok.com\" target=\"_blank\" class=\"social_Media_Link\"><i class=\"fa-brands fa-tiktok\"></i></a>",
