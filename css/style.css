@@ -417,9 +417,9 @@ input[type=submit]:hover {
   visibility: visible; 
 }
 .HWSh1{
-  font-size: 79px;
-  text-align: center;
+  font-size: 79px;;
   padding: 10px;
+  margin: 40px;
 }
 .HWSp {
   color: var(--clr-NormalBlack);
@@ -646,16 +646,14 @@ input[type=submit]:hover {
 }
 .about_content {
   display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
+  grid-template-rows: 1fr;
   color: whitesmoke;
   padding: 2px 16px;
 }
 .about_member{
   background-color: gray;
   width: 375px;
-  height: 600px;
+  height: 500px;
   transition: 0.3s;
   border-radius: 5px;
   margin-top: 1.5rem ;
@@ -667,7 +665,7 @@ input[type=submit]:hover {
 .about_member:hover{
   box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
   width: 375px;
-  height: 600px;
+  height: 550px;
 }
 .about_member_img img{
   display: block;
@@ -690,15 +688,6 @@ h1 {
 .about_member:hover .about_member_txt{
   opacity: 1;
   visibility: visible; 
-}
-.HWSh1{
-  font-size: 79px;
-  padding: 10px;
-}
-.HWSp {
-  color: var(--clr-NormalBlack);
-  font-size: 100%;
-  padding: 20px;
 }
 /*#endregion Main*/
 .merch_Shop_Header{
@@ -781,12 +770,13 @@ h1 {
   grid-row: 6;
 }
 .HWSh1 {
+  text-align: left;
   font-size: 30px;
 }
 .HWSp {
-  text-align: center;
-  font-size: 15px;
-  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+  padding: 30px;
 }
 /*********************************************/
 /* #region Footer */
