@@ -1,25 +1,8 @@
 //JAVASCRIPT FOR NAVMENU
 const menu = document.querySelector('#mobile_menu'); 
-const menuLinks = document.querySelector('.Navbar');
-const navLogo = document.querySelector('.Nav_Button');
-// function closeNavBar(){
-//   document.getElementById("SideNav").style.width ="0px"
-// }
-// function opneNavBar(){
-//   document.getElementById("SideNav").style.width ="250px"
-// }
-// function toggle(x) {
-//     x.classList.toggle('change');
-//   }
-//   function opneNavBar() {
-//     let holder = document.getElementById("mobile_Menu");
-//     if(holder.className === "Nav_button"){
-//       holder.className += "mobile_Menu";
-//     }
-//     else{
-//       holder.className = "Nav_button"
-//     }
-//   }
+const menuLinks = document.querySelector('.Navbar_links');
+const navLogo = document.querySelector('.Nav_logo');
+
 const mobileMenu = () => {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
