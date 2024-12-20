@@ -122,8 +122,8 @@ body{
 }
 .merch_Shop_Items{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-template-columns:auto;
+  grid-row: auto;
 }
 .merch_Shop_Item{
     width: 525px;
@@ -180,7 +180,7 @@ body{
 .merch_Shop_text{
   font-size: var(--Font-Large);
 }
-#Item_1{
+/* #Item_1{
   grid-row: 1;
 }
 #Item_2{
@@ -197,7 +197,7 @@ body{
 }
 #Item_6{
   grid-row: 2;
-}
+} */
 /*Merch Shop End*/
 #tour1{
   display: grid;
