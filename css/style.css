@@ -782,9 +782,190 @@ h1 {
 }
 .HWSp {
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   padding: 30px;
 }
+/*********************************************/
+#tour1{
+  display: grid;
+  padding-top: 3vh;
+}
+#tour2{
+  display: grid;
+  padding-top: 3vh;
+}
+#tour3{
+  display: grid;
+  padding-top: 3vh;
+}
+#tour4{
+  display: grid;
+  padding-top: 3vh;
+
+}
+#tour5{
+  display: grid;
+  padding-top: 35vh;
+}
+#img4{
+
+}
+#img5{
+  
+}
+
+.tour_Dates_Container{
+  display: grid;
+  margin-left: 0;
+  padding-left: 0;
+}
+.tour_Dates_H{
+  display: grid;
+
+}
+
+.tour_Dates_Item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 50px;
+}
+.indexbutton{
+  background-color: var(--clr-NormalWhite);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.TourImages{
+  grid-column: 3;
+  padding-left: 5%;
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  visibility: hidden;
+}
+.indexbutton a {
+  color:black;
+  text-decoration: none;
+}
+.TicketButton{
+  grid-column: 2;
+  max-width: 200px;
+  color: var(--clr-NormalRed);
+  margin-left: 2%;
+}
+.hr1{
+  width: 200px;
+}
+.jshr{
+  grid-column: 1;
+  width: 201.5165px;
+  max-height: 0px;
+  background-color: #000000;
+  margin: 5px;
+  transform: translateX(-5px);
+
+}
+.jshr2{
+  grid-column: 1;
+  transform: translateX(-5px);
+  min-width: 150px;
+  width: 24%;
+  height: 2.5px;
+  background-color: #000000;
+  margin: 5px;
+}
+.city{
+  color: var(--clr-NormalRed);
+  font-weight: bold;
+  font-size: xx-large;
+  grid-column: 1;
+  padding-left: 25%;
+  transform: translateY(10px);
+}
+.review{
+  display: grid;
+  grid-column: 1;
+  max-width: 403.033px;
+}
+#asia{
+  transform: translateY(-275px);
+}
+#JSHRasia{
+  transform: translateY(-275px);
+}
+.jshrText{
+  grid-column: 1;
+  margin-top: 50px;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--clr-DarkGrey);
+}
+.hr2{
+  margin-top: 10px;
+  background-color: black;
+  width: 500px;
+  height: 3.75px;
+}
+.button{
+  grid-column: 2;
+  background-color: var(--clr-NormalBlack); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.button a {
+  color:white;
+  text-decoration: none;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: var(--clr-NormalBlack); 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: lightgrey;
+  color: var(--clr-NormalBlack);
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.merch_Shop_button button{
+  font-size: var(--Font-Large);
+  width: 6rem;
+  height: 4rem;
+}
+
 /*********************************************/
 /* #region Footer */
 

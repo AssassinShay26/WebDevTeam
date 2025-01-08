@@ -17,7 +17,7 @@ xhr3.onload = function () {
       let newCard = "";
       newCard += "<div class='review'>";
       newCard += "<p class=\"jshr2Text\">" + responseObject.NATourDates[i].Location + "&nbsp";
-      newCard +=  "<p class=\"city\">" + responseObject.NATourDates[i].date + "</p>" + "<button class=\"TicketButton\">" + "Buy Tickets Now" + "</button>" + "<br>";
+      newCard += "<p class=\"city\">" + responseObject.NATourDates[i].date + "</p>" + "<button class=\"TicketButton\">" + "Buy Tickets Now" + "</button>" + "<br>";
       newCard += "<hr class=\"jshr\">";
       newCard += "</p>";
       newCard += "</div>";
@@ -46,16 +46,16 @@ xhr3.onload = function () {
       document.getElementById("tour3").innerHTML += newCard;
     };  
 
-    for (let i = 0; i < responseObject.RUTourDates.length; i++) {
-      let newCard = "";
-      newCard += "<div class='review'>";
-      newCard += "<p class=\"jshr2Text\">" + responseObject.RUTourDates[i].Location + "&nbsp";
-      newCard += "<p class=\"city\">" + responseObject.NATourDates[i].date + "</p>" + "<button class=\"TicketButton\">" + "Buy Tickets Now" + "</button>" + "<br>";
-      newCard += "<hr class=\"jshr\">";
-      newCard += "</p>";
-      newCard += "</div>";
-      document.getElementById("tour4").innerHTML += newCard;
-    };
+    // for (let i = 0; i < responseObject.RUTourDates.length; i++) {
+    //   let newCard = "";
+    //   newCard += "<div class='review'>";
+    //   newCard += "<p class=\"jshr2Text\">" + responseObject.RUTourDates[i].Location + "&nbsp";
+    //   newCard += "<p class=\"city\">" + responseObject.NATourDates[i].date + "</p>" + "<button class=\"TicketButton\">" + "Buy Tickets Now" + "</button>" + "<br>";
+    //   newCard += "<hr class=\"jshr\">";
+    //   newCard += "</p>";
+    //   newCard += "</div>";
+    //   document.getElementById("tour4").innerHTML += newCard;
+    // };
 
     for (let i = 0; i < responseObject.ASTourDates.length; i++) {
       let newCard = "";
