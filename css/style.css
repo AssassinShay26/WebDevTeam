@@ -534,7 +534,7 @@ p {
     transition: all .5s ease;
     z-index: -1;
 }
-.navbar_links.active{
+.Navbar_links.active{
     background: #131313;
     top: 100%;
     opacity: 1;
@@ -546,10 +546,10 @@ p {
 .Nav_logo{
     padding-left: 25px;
 }
-.navbar_link_item{
+.Navbar_link_item{
     width: 100%;
 }
-.navbar_link{
+.Navbar_link{
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -563,14 +563,14 @@ p {
     right:5%;
     transform: translate(5%, 20%);
 }
-.navbar_button .bar{
+.Nav_button .bar{
     width: 25px;
     height: 4px;
     margin: 5px auto;
     transition: all .5s ease-in-out;
     display: block;
     cursor: pointer;
-    background: #00acfc;
+    background: #000000;
 }
 
 .bar{
