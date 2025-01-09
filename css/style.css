@@ -209,7 +209,7 @@ body{
 }
 #tour4{
   display: grid;
-  max-height: 20%;
+  max-height: 50%;
 }
 #tour5{
   display: grid;
@@ -783,7 +783,7 @@ h1 {
 .HWSp {
   text-align: left;
   font-size: 25px;
-  padding: 30px;
+  padding: 37.5px;
 }
 /*********************************************/
 #tour1{
