@@ -54,12 +54,16 @@ xhr2.onload = function () {
         "©   STAGE FRIGHT 2024. All rights reserved." +
         "</p>";
       newCard += '<div id="social_media_icons">';
+      newCard += '<div id="SocialFirst">';
       newCard += responseObject.Header4[i].Section1Link;
       newCard += responseObject.Header4[i].Section2Link;
       newCard += responseObject.Header4[i].Section3Link;
+      newCard += '</div>'
+      newCard += '<div id="SocialSecond">';
       newCard += responseObject.Header4[i].Section4Link;
       newCard += responseObject.Header4[i].Section5Link;
       newCard += responseObject.Header4[i].Section6Link;
+      newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";

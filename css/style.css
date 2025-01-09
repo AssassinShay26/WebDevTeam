@@ -19,6 +19,7 @@
  }
 html{
   scroll-behavior: smooth;
+  max-height: fit-content;
 }
 body{
   padding: 0;
@@ -973,12 +974,13 @@ input[type=submit]:hover {
    .footer_wrapper{
       width:100%;
       height: 15%;
-      
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
   }
   .footer_container{
-      display: grid;
-      grid-template-rows: 1fr 1fr;
-      background-color: var(--clr-NormalBlack);
+      /* display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      background-color: var(--clr-NormalBlack); */
   }
   /* Font Awsome logos */
   .footer_social_media_logos{
@@ -1004,30 +1006,36 @@ input[type=submit]:hover {
       margin-top: 84vh ;
   }
   /* Link section */
-  .social_media_icons{
-    display: grid;
-  }
   .social_media_link{
-      text-decoration: none;
-      color: var(--clr-NormalWhite);
-      cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-NormalWhite);
+    cursor: pointer;
+  }
+  .social_media{
+    display: grid;
+    grid-row: 3;
   }
   .footer_links{
-      display: grid;
-      grid-template-columns: 1fr;
-      margin: 4vh 0 0 4vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4vh 0 0 4vw;
   }
   .footer_Link_Item{
-      list-style: none;
-      margin: 2.5vw;
-      color: var(--clr-NormalWhite);
-      font-size: 5vw;
+    display: grid;
+    grid-row: 1;
+    list-style: none;
+    margin: 2.5vw;
+    color: var(--clr-NormalWhite);
+    font-size: 5vw;
+  }
+  .social_media_icons{
+
   }
   .footer_Link_Item a{
       text-decoration: none;
       color: var(--clr-NormalWhite);
       text-decoration: none;
-
+      
   }
   .footer_Link_Item a:hover{
       transition:all 0.3s ease-in-out;
