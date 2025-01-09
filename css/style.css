@@ -207,12 +207,9 @@ body{
 #tour3{
   display: grid;
 }
-#tour4{
-  display: grid;
-  max-height: 50%;
-}
 #tour5{
   display: grid;
+  padding-top: 30vh;
   transform: translateY(-275px);
 }
 #img4{
@@ -221,7 +218,9 @@ body{
 #img5{
   transform: translateY(-175px);
 }
-
+.tour_Leg{
+  padding-top: 50px;
+}
 .tour_Dates_Container{
   display: grid;
   margin-left: 100px;
@@ -516,7 +515,7 @@ p {
   .Navbar_wrapper{
     display: flex;
     justify-content: space-between;
-    height: 5rem;
+    height: 9rem;
     z-index: 1;
     min-width: 100px;
     max-width: 1000px;
@@ -532,26 +531,29 @@ p {
     opacity: 1;
     transition: all .5s ease;
     z-index: -1;
-}
-.Navbar_links.active{
-    background: #131313;
+    height: 90px;
+  }
+  .Navbar_links.active{
+    background: var(--clr-DarkGrey);
     top: 100%;
     opacity: 1;
     transition: all .5s ease;
     z-index: 99;
-    height: 60vh;
+    min-height: 650px;
+    height: 360px;
     font-size: 1.6rem;
-}
-.Nav_logo{
+  }
+  .Nav_logo{
     padding-left: 25px;
-}
-.Navbar_link_item{
+  }
+  .Navbar_link_item{
     width: 100%;
-}
-.Navbar_link{
-    text-align: center;
-    padding: 2rem;
+  }
+  .Navbar_link{
+    /* text-align: center; */
+    /* padding: 2rem; */
     width: 100%;
+    /* height: fit-content; */
     display: table;
 }
 /***************************************************************************/
@@ -805,7 +807,7 @@ h1 {
 }
 #tour5{
   display: grid;
-  padding-top: 35vh;
+  padding-top: 37vh;
 }
 #img4{
 
@@ -821,14 +823,13 @@ h1 {
 }
 .tour_Dates_H{
   display: grid;
-
 }
 
 .tour_Dates_Item {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  padding: 50px;
+  padding: 5px;
 }
 .indexbutton{
   background-color: var(--clr-NormalWhite);
@@ -983,19 +984,18 @@ input[type=submit]:hover {
   .footer_social_media_logos{
       margin-left: 12vw;
   }
-  .fa-brands{      
-      color: var(--clr-NormalWhite);
-      position: relative;
-      margin:  4vh 20vw .5vh 12vw;
-      cursor: pointer;
-      transition:all 0.3s ease-in-out;
-      font-size: 17vw;/*BRAND SIZE*/
-      
+  .fa-brands{
+    color: var(--clr-NormalWhite);
+    font-size: 3.5vw;
+    position: relative;
+    margin:  2vh 2vw 2vh 2vw;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
   }
   .fa-brands:hover{
-      transition: all 0.5s ease-in-out;
-      transform: scale(1.75);
-      color: var(--clr-DarkRed);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.75);
+    color: var(--clr-DarkRed);
   }
   /* JS footer */
   #footer{
@@ -1004,6 +1004,9 @@ input[type=submit]:hover {
       margin-top: 84vh ;
   }
   /* Link section */
+  .social_media_icons{
+    display: grid;
+  }
   .social_media_link{
       text-decoration: none;
       color: var(--clr-NormalWhite);
