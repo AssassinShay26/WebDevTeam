@@ -208,12 +208,9 @@ body{
 #tour3{
   display: grid;
 }
-#tour4{
-  display: grid;
-  max-height: 20%;
-}
 #tour5{
   display: grid;
+  padding-top: 30vh;
   transform: translateY(-275px);
 }
 #img4{
@@ -222,7 +219,9 @@ body{
 #img5{
   transform: translateY(-175px);
 }
-
+.tour_Leg{
+  padding-top: 50px;
+}
 .tour_Dates_Container{
   display: grid;
   margin-left: 100px;
@@ -809,7 +808,7 @@ h1 {
 }
 #tour5{
   display: grid;
-  padding-top: 35vh;
+  padding-top: 37vh;
 }
 #img4{
 
@@ -825,14 +824,13 @@ h1 {
 }
 .tour_Dates_H{
   display: grid;
-
 }
 
 .tour_Dates_Item {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  padding: 50px;
+  padding: 5px;
 }
 .indexbutton{
   background-color: var(--clr-NormalWhite);
