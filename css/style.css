@@ -668,12 +668,6 @@ input[type=submit]:hover {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
- 
-}
-.about_member:hover{
-  box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
-  width: 375px;
-  height: 550px;
 }
 .about_member_img img{
   display: block;
@@ -693,7 +687,7 @@ h1 {
   font-size: 30px;
   text-align: center;
 }
-.about_member:hover .about_member_txt{
+.about_member .about_member_txt{
   opacity: 1;
   visibility: visible; 
 }
