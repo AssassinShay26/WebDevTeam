@@ -91,8 +91,8 @@ body{
 /***************************************/
 /*#region Main*/
 #latest_Album{
-  background-color: #000000;
-  color: #a00000 ;
+  background-color: #a00000;
+  color: #a00000;
 }
 .latest_Album_Container{
   display: grid;
@@ -549,10 +549,9 @@ p {
     width: 100%;
   }
   .Navbar_link{
-    /* text-align: center; */
-    /* padding: 2rem; */
+    text-align: center;
     width: 100%;
-    /* height: fit-content; */
+    height: fit-content;
     display: table;
 }
 /***************************************************************************/
@@ -683,7 +682,13 @@ input[type=submit]:hover {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease; 
 }
-h1 {
+h1, h2{
+  margin: 0px;
+  font-size: 30px;
+  max-height: fit-content;
+  text-align: center;
+}
+ul, li {
   font-size: 30px;
   text-align: center;
 }
@@ -692,6 +697,9 @@ h1 {
   visibility: visible; 
 }
 /*#endregion Main*/
+.merch_Shop_Container{
+  margin-left: 19.5px;
+}
 .merch_Shop_Header{
   padding-left: 5vw;
 }
@@ -964,23 +972,20 @@ input[type=submit]:hover {
 /* #region Footer */
 
    .footer_wrapper{
-      width:100%;
+      width: 100%;
       height: 15%;
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: auto;
   }
   .footer_container{
-      /* display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      background-color: var(--clr-NormalBlack); */
+      display: grid;
+      grid-template-rows: auto;
+      background-color: var(--clr-NormalBlack);
   }
   /* Font Awsome logos */
-  .footer_social_media_logos{
-      margin-left: 12vw;
-  }
   .fa-brands{
     color: var(--clr-NormalWhite);
-    font-size: 3.5vw;
+    font-size: 18.5vw;
     position: relative;
     margin:  2vh 2vw 2vh 2vw;
     cursor: pointer;
@@ -1020,14 +1025,19 @@ input[type=submit]:hover {
     color: var(--clr-NormalWhite);
     font-size: 5vw;
   }
-  .social_media_icons{
-
+  .social_media_wrapper{
+    width: 100%;
+  }
+  #SocialFirst{
+    padding-left: 20px;
+  }
+  #SocialSecond{
+    padding-left: 20px;
   }
   .footer_Link_Item a{
       text-decoration: none;
       color: var(--clr-NormalWhite);
       text-decoration: none;
-      
   }
   .footer_Link_Item a:hover{
       transition:all 0.3s ease-in-out;

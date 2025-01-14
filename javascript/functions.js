@@ -45,14 +45,11 @@ xhr2.onload = function () {
       newCard += "<li>" + responseObject.Header3[i].Section2 + " ";
       newCard += "</ul>";
       newCard += "</div>";
+      newCard += "</div>";
 
       newCard += '<div class="social_media">';
       newCard += '<div class="social_media_wrapper">';
       newCard += '<div id="footer_logo">';
-      newCard +=
-        '<p class="website_rights" style="color:var(--clr-DarkGrey);">' +
-        "©   STAGE FRIGHT 2024. All rights reserved." +
-        "</p>";
       newCard += '<div id="social_media_icons">';
       newCard += '<div id="SocialFirst">';
       newCard += responseObject.Header4[i].Section1Link;
@@ -63,7 +60,10 @@ xhr2.onload = function () {
       newCard += responseObject.Header4[i].Section4Link;
       newCard += responseObject.Header4[i].Section5Link;
       newCard += responseObject.Header4[i].Section6Link;
-      newCard += "</div>";
+      newCard +=
+        '<p class="website_rights" style="color:var(--clr-DarkGrey);">' +
+        "©   STAGE FRIGHT 2024. All rights reserved." +
+        "</p>";
       newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";
