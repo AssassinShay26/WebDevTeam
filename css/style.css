@@ -724,6 +724,9 @@ h1 {
 .merch_Shop_Item:hover .merch_Shop_inner {
   transform: rotateX(180deg) translateY(-300px);
 }
+.merch_Shop_front.active{
+  visibility: hidden;
+}
 .merch_Shop_front, .merch_Shop_back {
   position: absolute;
   width: 100%;
