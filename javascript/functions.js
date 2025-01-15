@@ -64,6 +64,7 @@ xhr2.onload = function () {
         '<p class="website_rights" style="color:var(--clr-DarkGrey);">' +
         "©   STAGE FRIGHT 2024. All rights reserved." +
         "</p>";
+        newCard += "<button onclick=\"myFunction()\">Dark Mode</button>"
       newCard += "</div>";
       newCard += "</div>";
       newCard += "</div>";

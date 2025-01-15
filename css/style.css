@@ -28,8 +28,11 @@ body{
   font-family:  "Bebas Neue", sans-serif;
   max-width: 100%;
 }
-.Navbar{
+.dark-mode{
   background-color: var(--clr-DarkGrey);
+}
+.Navbar{
+  background-color: var(--clr-NormalBlack);
   height: 120px;
   width: 100%;
   display: flex;
@@ -68,7 +71,7 @@ body{
   width: 100%;
   min-height: 100px;
   max-height: 200px;
-  background-color: var(--clr-DarkGrey);
+  background-color: var(--clr-NormalBlack);
   z-index: 9;
   align-items: center;
   list-style: none;
@@ -103,6 +106,7 @@ body{
  font-family: "Bebas Neue";
 }
 .latest_Album_h1{
+  color: #000000;
   padding-top: 13%;
 }
 .latest_Album_img {
@@ -523,7 +527,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     margin: 0;
-    width: 90.5%;
+    width: 100%;
     position: absolute;
     top: -1000px;
     opacity: 1;
@@ -534,7 +538,7 @@ p {
   .Navbar_links.active{
     background: var(--clr-DarkGrey);
     top: 100%;
-    width: 90.5%;
+    width: 100%;
     opacity: 1;
     transition: all .5s ease;
     z-index: 99;
@@ -695,6 +699,7 @@ h1, h2{
   text-align: center;
 }
 ul, li {
+  padding: 0;
   font-size: 30px;
   text-align: center;
 }
