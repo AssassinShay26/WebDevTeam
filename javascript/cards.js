@@ -1,3 +1,4 @@
-function mobileCardFlip(x){
-    x.classList.toggle("merch_Shop_front.active");
-  }
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
