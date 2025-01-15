@@ -524,7 +524,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     margin: 0;
-    width: 100%;
+    width: 90.5%;
     position: absolute;
     top: -1000px;
     opacity: 1;
@@ -535,6 +535,7 @@ p {
   .Navbar_links.active{
     background: var(--clr-DarkGrey);
     top: 100%;
+    width: 90.5%;
     opacity: 1;
     transition: all .5s ease;
     z-index: 99;
@@ -551,6 +552,8 @@ p {
   .Navbar_link{
     text-align: center;
     width: 100%;
+    margin-left: 0vw;
+    padding-right: 0vw;
     height: fit-content;
     display: table;
 }
