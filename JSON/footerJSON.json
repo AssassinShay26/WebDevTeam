@@ -17,14 +17,14 @@
     "Header2": [
         {
             "Section1": "<a href=\"./contactus.html\">Contact</a>",
-            "Section2": "<a href=\"#\">Support</a>",
-            "Section3": "<a href=\"#\">Locations</a>"
+            "Section2": "<a href=\"./contactus.html\">Support</a>",
+            "Section3": "<a href=\"./contactus.html\">Locations</a>"
         }  
     ],
     "Header3":[
         {
             "Section1": "<a href=\"./tourdates.html\">See Tour Dates Now</a>",
-            "Section2": "<a href=\"#\">Get Tickets Now</a>"
+            "Section2": "<a href=\"./tourdates.html\">Get Tickets Now</a>"
         }
     ],
     "Header4": [
