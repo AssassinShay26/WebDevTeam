@@ -572,7 +572,7 @@ p {
     transition: all .5s ease-in-out;
     display: block;
     cursor: pointer;
-    background: #000000;
+    background: var(--clr-NormalWhite);
 }
 
 .bar{
