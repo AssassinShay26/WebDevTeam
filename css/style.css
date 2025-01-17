@@ -28,11 +28,8 @@ body{
   font-family: "Bebas Neue", sans-serif;
   max-width: 100%;
 }
-.dark-mode{
-  background-color: var(--clr-DarkGrey);
-}
 .Navbar{
-  background-color: var(--clr-NormalBlack);
+  background-color: var(--clr-DarkGrey);
   height: 120px;
   width: 100%;
   display: flex;
@@ -71,7 +68,7 @@ body{
   width: 100%;
   min-height: 100px;
   max-height: 200px;
-  background-color: var(--clr-NormalBlack);
+  background-color: var(--clr-DarkGrey);
   z-index: 9;
   align-items: center;
   list-style: none;
@@ -106,7 +103,6 @@ body{
  font-family: "Bebas Neue";
 }
 .latest_Album_h1{
-  color: #000000;
   padding-top: 13%;
 }
 .latest_Album_img {
@@ -396,6 +392,7 @@ input[type=submit]:hover {
 .about_member:hover{
   box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
   height: 650px;
+  max-width: 100%;
 }
 .about_member_img img{
   display: block;
@@ -527,7 +524,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     margin: 0;
-    width: 100%;
+    width: 90.5%;
     position: absolute;
     top: -1000px;
     opacity: 1;
@@ -538,7 +535,7 @@ p {
   .Navbar_links.active{
     background: var(--clr-DarkGrey);
     top: 100%;
-    width: 100%;
+    width: 90.5%;
     opacity: 1;
     transition: all .5s ease;
     z-index: 99;
@@ -688,10 +685,6 @@ input[type=submit]:hover {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease; 
 }
-.about_member:hover{
-  box-shadow: 0 8px 16px 0 var(--clr-NormalBlack);
-  height: 505px;
-}
 h1, h2{
   margin: 0px;
   font-size: 30px;
@@ -699,7 +692,6 @@ h1, h2{
   text-align: center;
 }
 ul, li {
-  padding: 0;
   font-size: 30px;
   text-align: center;
 }
@@ -794,8 +786,8 @@ ul, li {
   grid-row: 6;
 }
 .HWSh1 {
-  text-align: center;
-  font-size: 40px;
+  text-align: left;
+  font-size: 30px;
 }
 .HWSp {
   text-align: left;
