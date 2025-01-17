@@ -62,7 +62,7 @@ xhr2.onload = function () {
       newCard += responseObject.Header4[i].Section6Link;
       newCard +=
         '<p class="website_rights" style="color:var(--clr-DarkGrey);">' +
-        "©   STAGE FRIGHT 2024. All rights reserved." +
+        "©   STAGE FRIGHT 2025. All rights reserved." +
         "</p>";
         newCard += "<button onclick=\"myFunction()\">Dark Mode</button>"
       newCard += "</div>";
