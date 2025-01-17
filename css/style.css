@@ -28,6 +28,9 @@ body{
   font-family: "Bebas Neue", sans-serif;
   max-width: 100%;
 }
+.dark-mode{
+  background-color: var(--clr-DarkGrey);
+}
 .Navbar{
   background-color: var(--clr-DarkGrey);
   height: 120px;
