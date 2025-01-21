@@ -1,3 +1,5 @@
+//Javascript for creating footer of website from JSON data
+
 let xhr2 = new XMLHttpRequest();
 
 let times;

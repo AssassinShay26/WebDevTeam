@@ -1,3 +1,5 @@
+//Javascript for pulling json info from json files to fill in dates page
+
 let xhr3 = new XMLHttpRequest();
 
 let times2;
@@ -45,17 +47,6 @@ xhr3.onload = function () {
       newCard += "</div>";
       document.getElementById("tour3").innerHTML += newCard;
     };  
-
-    // for (let i = 0; i < responseObject.RUTourDates.length; i++) {
-    //   let newCard = "";
-    //   newCard += "<div class='review'>";
-    //   newCard += "<p class=\"jshr2Text\">" + responseObject.RUTourDates[i].Location + "&nbsp";
-    //   newCard += "<p class=\"city\">" + responseObject.NATourDates[i].date + "</p>" + "<button class=\"TicketButton\">" + "Buy Tickets Now" + "</button>" + "<br>";
-    //   newCard += "<hr class=\"jshr\">";
-    //   newCard += "</p>";
-    //   newCard += "</div>";
-    //   document.getElementById("tour4").innerHTML += newCard;
-    // };
 
     for (let i = 0; i < responseObject.ASTourDates.length; i++) {
       let newCard = "";

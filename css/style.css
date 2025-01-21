@@ -95,7 +95,7 @@ body{
 /*#region Main*/
 #latest_Album{
   background-color: #a00000;
-  color: #a00000;
+  color: var(--clr-NormalBlack);
 }
 .latest_Album_Container{
   display: grid;
